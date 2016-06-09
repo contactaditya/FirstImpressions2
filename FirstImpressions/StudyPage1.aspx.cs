@@ -104,7 +104,7 @@ namespace FirstImpressions
                     ArrayList Condition1 = (ArrayList)Session["Condition"];
                     string picturename = (string)PictureName1[0];
                     int conditions = (int)Condition1[0];
-                    Image1.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
+                    Image1.ImageUrl = "http://localhost:51588/Pictures/" + picturename + ".jpg";
 
                     if(conditions == 1)
                     {
@@ -388,8 +388,8 @@ namespace FirstImpressions
                     int conditions = (int)Condition2[0];            
                     int conditions1 = (int)Condition2[1];
 
-                    Image2.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
-                    Image3.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename1 + ".jpg";
+                    Image2.ImageUrl = "http://localhost:51588/Pictures/" + picturename + ".jpg";
+                    Image3.ImageUrl = "http://localhost:51588/Pictures/" + picturename1 + ".jpg";
 
                     if (conditions == 1 && conditions1 == 1)
                     {
