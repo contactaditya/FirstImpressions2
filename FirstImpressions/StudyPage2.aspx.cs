@@ -104,7 +104,7 @@ namespace FirstImpressions
                         ArrayList Condition1 = (ArrayList)Session["Condition"];
                         string picturename = (string)PictureName1[0];
                         int conditions = (int)Condition1[0];
-                        Image1.ImageUrl = Server.MapPath("../Pictures/" + picturename + ".jpg");
+                        Image1.ImageUrl = Server.MapPath("~/Pictures/" + picturename + ".jpg");
 
                         if (conditions == 1)
                         {
