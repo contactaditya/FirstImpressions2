@@ -104,7 +104,7 @@ namespace FirstImpressions
                     ArrayList Condition1 = (ArrayList)Session["Condition"];
                     string picturename = (string)PictureName1[0];
                     int conditions = (int)Condition1[0];
-                    Image1.ImageUrl = "~/Pictures/" + picturename + ".jpg";
+                    Image1.ImageUrl = Page.ResolveUrl("https://github.com/contactaditya/FirstImpressions/tree/master/FirstImpressions/Pictures/" + picturename + ".jpg");
 
                     if(conditions == 1)
                     {
