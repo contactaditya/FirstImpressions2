@@ -104,7 +104,7 @@ namespace FirstImpressions
                     ArrayList Condition1 = (ArrayList)Session["Condition"];
                     string picturename = (string)PictureName1[0];
                     int conditions = (int)Condition1[0];
-                    Image1.ImageUrl = "http://localhost:51588//Pictures/" + picturename + ".jpg";
+                    Image1.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
 
                     if(conditions == 1)
                     {
@@ -388,8 +388,8 @@ namespace FirstImpressions
                     int conditions = (int)Condition2[0];            
                     int conditions1 = (int)Condition2[1];
 
-                    Image2.ImageUrl = "http://localhost:51588//Pictures/" + picturename + ".jpg";
-                    Image3.ImageUrl = "http://localhost:51588//Pictures/" + picturename1 + ".jpg";
+                    Image2.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
+                    Image3.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename1 + ".jpg";
 
                     if (conditions == 1 && conditions1 == 1)
                     {
@@ -1361,9 +1361,9 @@ namespace FirstImpressions
                     string picturename2 = (string)PictureName3[2];
                     int conditions2 = (int)Condition3[2];
 
-                    Image4.ImageUrl = "http://localhost:51588//Pictures/" + picturename + ".jpg";
-                    Image5.ImageUrl = "http://localhost:51588//Pictures/" + picturename1 + ".jpg";
-                    Image6.ImageUrl = "http://localhost:51588//Pictures/" + picturename2 + ".jpg";
+                    Image4.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
+                    Image5.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename1 + ".jpg";
+                    Image6.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename2 + ".jpg";
 
                     if (conditions == 1 && conditions1 == 1 && conditions2 == 1)
                     {
@@ -2344,10 +2344,10 @@ namespace FirstImpressions
          int conditions2 = (int)Condition4[2];
          string picturename3 = (string)PictureName4[3];
          int conditions3 = (int)Condition4[3];
-         Image7.ImageUrl = "http://localhost:51588//Pictures/" + picturename + ".jpg";
-         Image8.ImageUrl = "http://localhost:51588//Pictures/" + picturename1 + ".jpg";
-         Image9.ImageUrl = "http://localhost:51588//Pictures/" + picturename2 + ".jpg";
-         Image10.ImageUrl = "http://localhost:51588//Pictures/" + picturename3 + ".jpg";
+         Image7.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
+         Image8.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename1 + ".jpg";
+         Image9.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename2 + ".jpg";
+         Image10.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename3 + ".jpg";
 
          if (conditions == 1 && conditions1 == 1 && conditions2 == 1 && conditions3 == 1)
          {
@@ -3116,7 +3116,7 @@ namespace FirstImpressions
                     ArrayList Condition1 = (ArrayList)Session["Condition"];
                     string picturename = (string)PictureName1[0];
                     int conditions = (int)Condition1[0];
-                    Image1.ImageUrl = "http://localhost:51588//Pictures/" + picturename + ".jpg";
+                    Image1.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
 
                     if (conditions == 1)
                     {
@@ -3400,8 +3400,8 @@ namespace FirstImpressions
                     string picturename1 = (string)PictureName2[1];
                     int conditions1 = (int)Condition2[1];
 
-                    Image2.ImageUrl = "http://localhost:51588//Pictures/" + picturename + ".jpg";
-                    Image3.ImageUrl = "http://localhost:51588//Pictures/" + picturename1 + ".jpg";
+                    Image2.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
+                    Image3.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename1 + ".jpg";
 
                     if (conditions == 1 && conditions1 == 1)
                     {
@@ -4373,9 +4373,9 @@ namespace FirstImpressions
                     string picturename2 = (string)PictureName3[2];
                     int conditions2 = (int)Condition3[2];
 
-                    Image4.ImageUrl = "http://localhost:51588//Pictures/" + picturename + ".jpg";
-                    Image5.ImageUrl = "http://localhost:51588//Pictures/" + picturename1 + ".jpg";
-                    Image6.ImageUrl = "http://localhost:51588//Pictures/" + picturename2 + ".jpg";
+                    Image4.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
+                    Image5.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename1 + ".jpg";
+                    Image6.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename2 + ".jpg";
 
                     if (conditions == 1 && conditions1 == 1 && conditions2 == 1)
                     {
@@ -5356,10 +5356,10 @@ namespace FirstImpressions
                     int conditions2 = (int)Condition4[2];
                     string picturename3 = (string)PictureName4[3];
                     int conditions3 = (int)Condition4[3];
-                    Image7.ImageUrl = "http://localhost:51588//Pictures/" + picturename + ".jpg";
-                    Image8.ImageUrl = "http://localhost:51588//Pictures/" + picturename1 + ".jpg";
-                    Image9.ImageUrl = "http://localhost:51588//Pictures/" + picturename2 + ".jpg";
-                    Image10.ImageUrl = "http://localhost:51588//Pictures/" + picturename3 + ".jpg";
+                    Image7.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
+                    Image8.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename1 + ".jpg";
+                    Image9.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename2 + ".jpg";
+                    Image10.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename3 + ".jpg";
 
                     if (conditions == 1 && conditions1 == 1 && conditions2 == 1 && conditions3 == 1)
                     {
