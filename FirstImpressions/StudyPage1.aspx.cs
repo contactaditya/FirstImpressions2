@@ -6049,13 +6049,13 @@ namespace FirstImpressions
         }
 
        if (Convert.ToInt32(Session["Counter"]) == 2)
-               {
-              string str = getConnectionString();
+         {
+            string str = getConnectionString();
          
             if (Convert.ToString(Session["Gender"]) == "Male")
             {
                 int currentUserId = Convert.ToInt32(Session["UserId"]);               
-                int pictureid = Convert.ToInt32(Session["PictureId"]);   
+                int pictureid = Convert.ToInt32(Session["PictureId"]);
                 string raterslot = Session["RaterSlot"].ToString();    
                 SqlConnection con2 = new SqlConnection(str);
                 con2.Open();

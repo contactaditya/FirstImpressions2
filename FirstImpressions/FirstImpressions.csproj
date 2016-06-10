@@ -1501,6 +1501,7 @@
     </Content>
     <Content Include="StudyPage1.aspx" />
     <Content Include="StudyPage2.aspx" />
+    <Content Include="Test1.aspx" />
     <Content Include="ThankYou.aspx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -1661,6 +1662,13 @@
     </Compile>
     <Compile Include="StudyPage2.aspx.designer.cs">
       <DependentUpon>StudyPage2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Test1.aspx.cs">
+      <DependentUpon>Test1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Test1.aspx.designer.cs">
+      <DependentUpon>Test1.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

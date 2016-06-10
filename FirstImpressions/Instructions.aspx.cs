@@ -70,9 +70,10 @@ namespace FirstImpressions
                 {
                     Session["PictureId"] = row["PictureId"].ToString();
                     Session["RaterSlot"] = row["RaterSlot"].ToString();
+                    Session["NumberofPictures"] = row["NumberofPictures"].ToString();
                 }
 
-                Response.Redirect("StudyPage2.aspx");
+                Response.Redirect("StudyPage1.aspx");
             }
 
             SqlConnection con2 = new SqlConnection(str);
@@ -84,7 +85,7 @@ namespace FirstImpressions
             command2.Parameters.AddWithValue("@userid", currentUserId);
             SqlDataAdapter da1 = new SqlDataAdapter(command2);
             DataTable dt1 = new DataTable();
-            da.Fill(dt1);
+            da1.Fill(dt1);
 
             int result1 = command2.ExecuteNonQuery();
 
@@ -98,9 +99,10 @@ namespace FirstImpressions
                 {
                     Session["PictureId"] = row["PictureId"].ToString();
                     Session["RaterSlot"] = row["RaterSlot"].ToString();
+                    Session["NumberofPictures"] = row["NumberofPictures"].ToString();
                 }
 
-                Response.Redirect("StudyPage1.aspx");
+                Response.Redirect("StudyPage2.aspx");
             }
 
 
