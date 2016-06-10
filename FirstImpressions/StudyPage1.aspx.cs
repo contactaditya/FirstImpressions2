@@ -6089,7 +6089,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");               
             }
         }
 
@@ -6110,7 +6110,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6131,7 +6131,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6153,7 +6153,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6175,7 +6175,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6197,7 +6197,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6219,7 +6219,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6242,7 +6242,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6264,7 +6264,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6286,7 +6286,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6309,7 +6309,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6332,7 +6332,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6355,7 +6355,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6377,7 +6377,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6400,7 +6400,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6424,7 +6424,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6448,7 +6448,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6473,7 +6473,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6497,7 +6497,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6522,7 +6522,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6546,7 +6546,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6570,7 +6570,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6595,7 +6595,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6620,7 +6620,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6644,7 +6644,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6669,7 +6669,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6693,7 +6693,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6718,7 +6718,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6744,7 +6744,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6769,7 +6769,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6795,7 +6795,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6822,7 +6822,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6847,7 +6847,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6872,7 +6872,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6898,7 +6898,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6925,7 +6925,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6951,7 +6951,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -6977,7 +6977,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -7004,7 +7004,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -7030,7 +7030,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -7058,7 +7058,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
@@ -7087,7 +7087,7 @@ namespace FirstImpressions
             int result = command.ExecuteNonQuery();
             if (result == 1)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Your ratings have been successfully submitted.');location.href='StudyPage2.aspx'", true);
+                Response.Redirect("StudyPage2.aspx");    
             }
         }
 
