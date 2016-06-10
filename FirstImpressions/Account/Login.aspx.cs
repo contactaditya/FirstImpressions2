@@ -74,7 +74,7 @@ namespace FirstImpressions.Account
 
             if (dt.Rows.Count > 0)
             {
-                ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Login Was Successful');location.href='/AimofTheStudy.aspx'", true);
+                Response.Redirect("/AimofTheStudy.aspx");   
             }
 
             else

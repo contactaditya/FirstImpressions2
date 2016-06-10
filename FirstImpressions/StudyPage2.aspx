@@ -297,28 +297,28 @@
 
 <br /> <br /> 
 <div id="header" runat="server">
-<asp:Image ID="Image1" Height="200px" Width="200px" runat="server" style="margin-left: 450px"/>
+<asp:Image ID="Image1" runat="server" style="margin-left: 450px"/>
 <hr>
 </div> 
 
 <div id="header1" runat="server">
-<asp:Image ID="Image2" Height="200px" Width="200px" runat="server" style="margin-left: 250px"/>
-<asp:Image ID="Image3" Height="200px" Width="200px" runat="server" style="margin-left: 200px"/>
+<asp:Image ID="Image2" runat="server" style="margin-left: 250px"/>
+<asp:Image ID="Image3" runat="server" style="margin-left: 200px"/>
 <hr>
 </div> 
 
 <div id="header2" runat="server">
-<asp:Image ID="Image4" Height="200px" Width="200px" runat="server" style="margin-left: 150px"/>
-<asp:Image ID="Image5" Height="200px" Width="200px" runat="server" style="margin-left: 125px"/>
-<asp:Image ID="Image6" Height="200px" Width="200px" runat="server" style="margin-left: 125px"/>
+<asp:Image ID="Image4" runat="server" style="margin-left: 150px"/>
+<asp:Image ID="Image5" runat="server" style="margin-left: 125px"/>
+<asp:Image ID="Image6" runat="server" style="margin-left: 125px"/>
 <hr>
 </div> 
 
 <div id="header3" runat="server">
-<asp:Image ID="Image7" Height="200px" Width="200px" runat="server" style="margin-left: 100px"/>
-<asp:Image ID="Image8" Height="200px" Width="200px" runat="server" style="margin-left: 50px"/>
-<asp:Image ID="Image9" Height="200px" Width="200px" runat="server" style="margin-left: 50px"/>
-<asp:Image ID="Image10" Height="200px" Width="200px" runat="server" style="margin-left: 50px"/>
+<asp:Image ID="Image7" runat="server" style="margin-left: 100px"/>
+<asp:Image ID="Image8" runat="server" style="margin-left: 50px"/>
+<asp:Image ID="Image9" runat="server" style="margin-left: 50px"/>
+<asp:Image ID="Image10" runat="server" style="margin-left: 50px"/>
 <hr>
 </div> 
 
