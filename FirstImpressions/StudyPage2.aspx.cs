@@ -95,47 +95,7 @@ namespace FirstImpressions
                                 header1.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
+                                
                                 ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con3 = new SqlConnection(str);
@@ -162,51 +122,8 @@ namespace FirstImpressions
                                 header1.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                header1.Visible = false;
-                                header2.Visible = false;
-                                header3.Visible = false;
-                                condition1.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit2();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con4 = new SqlConnection(str);
                                 con4.Open();
@@ -232,48 +149,8 @@ namespace FirstImpressions
                                 header1.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit3();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con5 = new SqlConnection(str);
                                 con5.Open();
@@ -298,48 +175,8 @@ namespace FirstImpressions
                                 header1.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit4();</script>");
+                               
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con6 = new SqlConnection(str);
                                 con6.Open();
@@ -380,48 +217,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit5();</script>");
+                               
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con7 = new SqlConnection(str);
                                 con7.Open();
@@ -448,48 +245,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit6();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con8 = new SqlConnection(str);
                                 con8.Open();
@@ -516,49 +273,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit7();</script>");
-
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con9 = new SqlConnection(str);
                                 con9.Open();
@@ -585,48 +301,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit8();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con10 = new SqlConnection(str);
                                 con10.Open();
@@ -653,48 +329,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit9();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con11 = new SqlConnection(str);
                                 con11.Open();
@@ -721,48 +357,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit10();</script>");
+                               
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con12 = new SqlConnection(str);
                                 con12.Open();
@@ -789,48 +385,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit11();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con13 = new SqlConnection(str);
                                 con13.Open();
@@ -857,48 +413,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit12();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con14 = new SqlConnection(str);
                                 con14.Open();
@@ -925,48 +441,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit13();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con15 = new SqlConnection(str);
                                 con15.Open();
@@ -993,48 +469,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit14();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
 
                                 SqlConnection con16 = new SqlConnection(str);
@@ -1062,48 +498,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit15();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
 
                                 SqlConnection con17 = new SqlConnection(str);
@@ -1131,48 +527,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit16();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con18 = new SqlConnection(str);
                                 con18.Open();
@@ -1199,48 +555,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit17();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
 
                                 SqlConnection con19 = new SqlConnection(str);
@@ -1268,48 +584,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit18();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
 
                                 SqlConnection con20 = new SqlConnection(str);
@@ -1354,48 +630,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit19();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con21 = new SqlConnection(str);
                                 con21.Open();
@@ -1422,49 +658,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit20();</script>");
-
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con22 = new SqlConnection(str);
                                 con22.Open();
@@ -1492,48 +687,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit21();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con23 = new SqlConnection(str);
                                 con23.Open();
@@ -1561,48 +716,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit22();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con24 = new SqlConnection(str);
                                 con24.Open();
@@ -1630,48 +745,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit23();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con25 = new SqlConnection(str);
                                 con25.Open();
@@ -1698,48 +773,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit24();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con26 = new SqlConnection(str);
                                 con26.Open();
@@ -1767,48 +802,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit25();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con27 = new SqlConnection(str);
                                 con27.Open();
@@ -1836,48 +831,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit26();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con28 = new SqlConnection(str);
                                 con28.Open();
@@ -1905,48 +860,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit27();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con29 = new SqlConnection(str);
                                 con29.Open();
@@ -1974,48 +889,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit28();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con30 = new SqlConnection(str);
                                 con30.Open();
@@ -2043,48 +918,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit29();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con31 = new SqlConnection(str);
                                 con31.Open();
@@ -2112,48 +947,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit30();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con32 = new SqlConnection(str);
                                 con32.Open();
@@ -2181,48 +976,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit31();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con33 = new SqlConnection(str);
                                 con33.Open();
@@ -2249,48 +1004,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit32();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con34 = new SqlConnection(str);
                                 con34.Open();
@@ -2338,48 +1053,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit33();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con35 = new SqlConnection(str);
                                 con35.Open();
@@ -2407,48 +1082,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit34();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con36 = new SqlConnection(str);
                                 con36.Open();
@@ -2477,48 +1112,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit35();</script>");
+                               
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con37 = new SqlConnection(str);
                                 con37.Open();
@@ -2546,48 +1141,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit36();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con38 = new SqlConnection(str);
                                 con38.Open();
@@ -2615,48 +1170,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit37();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con39 = new SqlConnection(str);
                                 con39.Open();
@@ -2685,48 +1200,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit38();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con40 = new SqlConnection(str);
                                 con40.Open();
@@ -2755,48 +1230,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit39();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con41 = new SqlConnection(str);
                                 con41.Open();
@@ -2825,48 +1260,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit40();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con42 = new SqlConnection(str);
                                 con42.Open();
@@ -2896,48 +1291,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit41();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con43 = new SqlConnection(str);
                                 con43.Open();
@@ -2967,48 +1322,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit42();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con44 = new SqlConnection(str);
                                 con44.Open();
@@ -3109,47 +1424,7 @@ namespace FirstImpressions
                                 header1.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
+                               
                                 ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con3 = new SqlConnection(str);
@@ -3176,48 +1451,8 @@ namespace FirstImpressions
                                 header1.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit2();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con4 = new SqlConnection(str);
                                 con4.Open();
@@ -3243,48 +1478,8 @@ namespace FirstImpressions
                                 header1.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit3();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con5 = new SqlConnection(str);
                                 con5.Open();
@@ -3309,48 +1504,8 @@ namespace FirstImpressions
                                 header1.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit4();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con6 = new SqlConnection(str);
                                 con6.Open();
@@ -3391,48 +1546,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit5();</script>");
+                               
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con7 = new SqlConnection(str);
                                 con7.Open();
@@ -3459,48 +1574,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit6();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con8 = new SqlConnection(str);
                                 con8.Open();
@@ -3527,48 +1602,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit7();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
 
                                 SqlConnection con9 = new SqlConnection(str);
@@ -3596,48 +1631,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit8();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con10 = new SqlConnection(str);
                                 con10.Open();
@@ -3664,48 +1659,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit9();</script>");
+                               
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con11 = new SqlConnection(str);
                                 con11.Open();
@@ -3732,48 +1687,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit10();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con12 = new SqlConnection(str);
                                 con12.Open();
@@ -3800,48 +1715,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit11();</script>");
+                               
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con13 = new SqlConnection(str);
                                 con13.Open();
@@ -3868,48 +1743,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit12();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con14 = new SqlConnection(str);
                                 con14.Open();
@@ -3936,48 +1771,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit13();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con15 = new SqlConnection(str);
                                 con15.Open();
@@ -4004,48 +1799,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit14();</script>");
+                              
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
 
                                 SqlConnection con16 = new SqlConnection(str);
@@ -4073,48 +1828,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit15();</script>");
+                               
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
 
                                 SqlConnection con17 = new SqlConnection(str);
@@ -4142,48 +1857,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit16();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con18 = new SqlConnection(str);
                                 con18.Open();
@@ -4210,48 +1885,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit17();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
 
                                 SqlConnection con19 = new SqlConnection(str);
@@ -4279,48 +1914,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit18();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
 
                                 SqlConnection con20 = new SqlConnection(str);
@@ -4365,48 +1960,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit19();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con21 = new SqlConnection(str);
                                 con21.Open();
@@ -4433,48 +1988,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit20();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
 
                                 SqlConnection con22 = new SqlConnection(str);
@@ -4503,48 +2018,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit21();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con23 = new SqlConnection(str);
                                 con23.Open();
@@ -4572,48 +2047,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit22();</script>");
+                               
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con24 = new SqlConnection(str);
                                 con24.Open();
@@ -4641,48 +2076,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit23();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con25 = new SqlConnection(str);
                                 con25.Open();
@@ -4709,48 +2104,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit24();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con26 = new SqlConnection(str);
                                 con26.Open();
@@ -4778,48 +2133,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit25();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con27 = new SqlConnection(str);
                                 con27.Open();
@@ -4847,48 +2162,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit26();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con28 = new SqlConnection(str);
                                 con28.Open();
@@ -4916,48 +2191,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit27();</script>");
+                               
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con29 = new SqlConnection(str);
                                 con29.Open();
@@ -4985,48 +2220,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit28();</script>");
+                               
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con30 = new SqlConnection(str);
                                 con30.Open();
@@ -5054,48 +2249,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit29();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con31 = new SqlConnection(str);
                                 con31.Open();
@@ -5123,48 +2278,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit30();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con32 = new SqlConnection(str);
                                 con32.Open();
@@ -5192,48 +2307,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit31();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con33 = new SqlConnection(str);
                                 con33.Open();
@@ -5260,48 +2335,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit32();</script>");
+                               
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con34 = new SqlConnection(str);
                                 con34.Open();
@@ -5349,48 +2384,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit33();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con35 = new SqlConnection(str);
                                 con35.Open();
@@ -5418,48 +2413,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit34();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con36 = new SqlConnection(str);
                                 con36.Open();
@@ -5488,48 +2443,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit35();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con37 = new SqlConnection(str);
                                 con37.Open();
@@ -5557,48 +2472,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit36();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con38 = new SqlConnection(str);
                                 con38.Open();
@@ -5626,48 +2501,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit37();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con39 = new SqlConnection(str);
                                 con39.Open();
@@ -5696,48 +2531,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit38();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con40 = new SqlConnection(str);
                                 con40.Open();
@@ -5766,48 +2561,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit39();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con41 = new SqlConnection(str);
                                 con41.Open();
@@ -5836,48 +2591,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit40();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con42 = new SqlConnection(str);
                                 con42.Open();
@@ -5907,48 +2622,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit41();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con43 = new SqlConnection(str);
                                 con43.Open();
@@ -5978,48 +2653,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit42();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con44 = new SqlConnection(str);
                                 con44.Open();
@@ -6102,47 +2737,7 @@ namespace FirstImpressions
                                 header1.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
+                                
                                 ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con3 = new SqlConnection(str);
@@ -6172,48 +2767,8 @@ namespace FirstImpressions
                                 header1.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit2();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con4 = new SqlConnection(str);
                                 con4.Open();
@@ -6239,48 +2794,8 @@ namespace FirstImpressions
                                 header1.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit3();</script>");
+                               
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con5 = new SqlConnection(str);
                                 con5.Open();
@@ -6305,48 +2820,8 @@ namespace FirstImpressions
                                 header1.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit4();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con6 = new SqlConnection(str);
                                 con6.Open();
@@ -6387,48 +2862,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit5();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con7 = new SqlConnection(str);
                                 con7.Open();
@@ -6455,48 +2890,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit6();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con8 = new SqlConnection(str);
                                 con8.Open();
@@ -6523,49 +2918,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit7();</script>");
-
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con9 = new SqlConnection(str);
                                 con9.Open();
@@ -6592,48 +2946,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit8();</script>");
+                               
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con10 = new SqlConnection(str);
                                 con10.Open();
@@ -6660,48 +2974,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit9();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con11 = new SqlConnection(str);
                                 con11.Open();
@@ -6728,48 +3002,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit10();</script>");
+                               
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con12 = new SqlConnection(str);
                                 con12.Open();
@@ -6796,48 +3030,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit11();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con13 = new SqlConnection(str);
                                 con13.Open();
@@ -6864,48 +3058,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit12();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con14 = new SqlConnection(str);
                                 con14.Open();
@@ -6932,48 +3086,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit13();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con15 = new SqlConnection(str);
                                 con15.Open();
@@ -7000,48 +3114,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit14();</script>");
+                               
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
 
                                 SqlConnection con16 = new SqlConnection(str);
@@ -7069,48 +3143,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit15();</script>");
+                               
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
 
                                 SqlConnection con17 = new SqlConnection(str);
@@ -7138,48 +3172,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit16();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con18 = new SqlConnection(str);
                                 con18.Open();
@@ -7206,48 +3200,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit17();</script>");
+                               
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
 
                                 SqlConnection con19 = new SqlConnection(str);
@@ -7275,48 +3229,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit18();</script>");
+                               
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
 
                                 SqlConnection con20 = new SqlConnection(str);
@@ -7361,48 +3275,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit19();</script>");
+                               
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con21 = new SqlConnection(str);
                                 con21.Open();
@@ -7429,48 +3303,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit20();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
 
                                 SqlConnection con22 = new SqlConnection(str);
@@ -7499,48 +3333,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit21();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con23 = new SqlConnection(str);
                                 con23.Open();
@@ -7568,48 +3362,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit22();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con24 = new SqlConnection(str);
                                 con24.Open();
@@ -7637,48 +3391,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit23();</script>");
+                               
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con25 = new SqlConnection(str);
                                 con25.Open();
@@ -7705,48 +3419,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit24();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con26 = new SqlConnection(str);
                                 con26.Open();
@@ -7774,48 +3448,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit25();</script>");
+                               
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con27 = new SqlConnection(str);
                                 con27.Open();
@@ -7843,48 +3477,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit26();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con28 = new SqlConnection(str);
                                 con28.Open();
@@ -7912,48 +3506,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit27();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con29 = new SqlConnection(str);
                                 con29.Open();
@@ -7981,48 +3535,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit28();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con30 = new SqlConnection(str);
                                 con30.Open();
@@ -8050,48 +3564,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit29();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con31 = new SqlConnection(str);
                                 con31.Open();
@@ -8119,48 +3593,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit30();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con32 = new SqlConnection(str);
                                 con32.Open();
@@ -8188,48 +3622,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit31();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con33 = new SqlConnection(str);
                                 con33.Open();
@@ -8256,48 +3650,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit32();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con34 = new SqlConnection(str);
                                 con34.Open();
@@ -8345,48 +3699,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit33();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con35 = new SqlConnection(str);
                                 con35.Open();
@@ -8414,48 +3728,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit34();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con36 = new SqlConnection(str);
                                 con36.Open();
@@ -8484,48 +3758,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit35();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con37 = new SqlConnection(str);
                                 con37.Open();
@@ -8553,48 +3787,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit36();</script>");
+                               
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con38 = new SqlConnection(str);
                                 con38.Open();
@@ -8622,48 +3816,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit37();</script>");
+                               
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con39 = new SqlConnection(str);
                                 con39.Open();
@@ -8692,48 +3846,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit38();</script>");
+                               
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con40 = new SqlConnection(str);
                                 con40.Open();
@@ -8762,48 +3876,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit39();</script>");
+                               
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con41 = new SqlConnection(str);
                                 con41.Open();
@@ -8832,48 +3906,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit40();</script>");
+                               
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con42 = new SqlConnection(str);
                                 con42.Open();
@@ -8903,48 +3937,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit41();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con43 = new SqlConnection(str);
                                 con43.Open();
@@ -8974,48 +3968,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit42();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con44 = new SqlConnection(str);
                                 con44.Open();
@@ -9094,47 +4048,7 @@ namespace FirstImpressions
                                 header1.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
+                              
                                 ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con3 = new SqlConnection(str);
@@ -9161,48 +4075,8 @@ namespace FirstImpressions
                                 header1.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit2();</script>");
+                               
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con4 = new SqlConnection(str);
                                 con4.Open();
@@ -9228,48 +4102,8 @@ namespace FirstImpressions
                                 header1.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit3();</script>");
+                               
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con5 = new SqlConnection(str);
                                 con5.Open();
@@ -9294,48 +4128,8 @@ namespace FirstImpressions
                                 header1.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit4();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con6 = new SqlConnection(str);
                                 con6.Open();
@@ -9376,48 +4170,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit5();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con7 = new SqlConnection(str);
                                 con7.Open();
@@ -9444,48 +4198,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit6();</script>");
+                              
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con8 = new SqlConnection(str);
                                 con8.Open();
@@ -9512,48 +4226,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit7();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
 
                                 SqlConnection con9 = new SqlConnection(str);
@@ -9581,48 +4255,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit8();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con10 = new SqlConnection(str);
                                 con10.Open();
@@ -9649,48 +4283,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit9();</script>");
+                              
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con11 = new SqlConnection(str);
                                 con11.Open();
@@ -9717,48 +4311,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit10();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con12 = new SqlConnection(str);
                                 con12.Open();
@@ -9785,48 +4339,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit11();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con13 = new SqlConnection(str);
                                 con13.Open();
@@ -9853,48 +4367,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit12();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con14 = new SqlConnection(str);
                                 con14.Open();
@@ -9921,48 +4395,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit13();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con15 = new SqlConnection(str);
                                 con15.Open();
@@ -9989,48 +4423,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit14();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
 
                                 SqlConnection con16 = new SqlConnection(str);
@@ -10058,48 +4452,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit15();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
 
                                 SqlConnection con17 = new SqlConnection(str);
@@ -10127,48 +4481,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit16();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con18 = new SqlConnection(str);
                                 con18.Open();
@@ -10195,48 +4509,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit17();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
 
                                 SqlConnection con19 = new SqlConnection(str);
@@ -10264,48 +4538,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header2.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit18();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
 
                                 SqlConnection con20 = new SqlConnection(str);
@@ -10350,48 +4584,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit19();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con21 = new SqlConnection(str);
                                 con21.Open();
@@ -10418,48 +4612,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit20();</script>");
+                               
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
 
                                 SqlConnection con22 = new SqlConnection(str);
@@ -10488,48 +4642,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit21();</script>");
+
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con23 = new SqlConnection(str);
                                 con23.Open();
@@ -10557,48 +4671,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit22();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con24 = new SqlConnection(str);
                                 con24.Open();
@@ -10626,48 +4700,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit23();</script>");
+                              
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con25 = new SqlConnection(str);
                                 con25.Open();
@@ -10694,48 +4728,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit24();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con26 = new SqlConnection(str);
                                 con26.Open();
@@ -10763,48 +4757,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit25();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con27 = new SqlConnection(str);
                                 con27.Open();
@@ -10832,48 +4786,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit26();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con28 = new SqlConnection(str);
                                 con28.Open();
@@ -10901,48 +4815,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit27();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con29 = new SqlConnection(str);
                                 con29.Open();
@@ -10970,48 +4844,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit28();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con30 = new SqlConnection(str);
                                 con30.Open();
@@ -11039,48 +4873,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit29();</script>");
+                               
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con31 = new SqlConnection(str);
                                 con31.Open();
@@ -11108,48 +4902,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit30();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con32 = new SqlConnection(str);
                                 con32.Open();
@@ -11177,48 +4931,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit31();</script>");
+                              
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con33 = new SqlConnection(str);
                                 con33.Open();
@@ -11245,48 +4959,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header3.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit32();</script>");
+                            
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con34 = new SqlConnection(str);
                                 con34.Open();
@@ -11334,48 +5008,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit33();</script>");
+                               
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con35 = new SqlConnection(str);
                                 con35.Open();
@@ -11403,48 +5037,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit34();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con36 = new SqlConnection(str);
                                 con36.Open();
@@ -11473,48 +5067,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit35();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con37 = new SqlConnection(str);
                                 con37.Open();
@@ -11542,48 +5096,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit36();</script>");
+                              
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con38 = new SqlConnection(str);
                                 con38.Open();
@@ -11611,48 +5125,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit37();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con39 = new SqlConnection(str);
                                 con39.Open();
@@ -11681,48 +5155,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit38();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con40 = new SqlConnection(str);
                                 con40.Open();
@@ -11751,48 +5185,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit39();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con41 = new SqlConnection(str);
                                 con41.Open();
@@ -11821,48 +5215,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition41.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit40();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con42 = new SqlConnection(str);
                                 con42.Open();
@@ -11892,48 +5246,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition42.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit41();</script>");
+                               
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con43 = new SqlConnection(str);
                                 con43.Open();
@@ -11963,48 +5277,8 @@ namespace FirstImpressions
                                 header.Visible = false;
                                 header1.Visible = false;
                                 header2.Visible = false;
-                                condition1.Visible = false;
-                                condition2.Visible = false;
-                                condition3.Visible = false;
-                                condition4.Visible = false;
-                                condition5.Visible = false;
-                                condition6.Visible = false;
-                                condition7.Visible = false;
-                                condition8.Visible = false;
-                                condition9.Visible = false;
-                                condition10.Visible = false;
-                                condition11.Visible = false;
-                                condition12.Visible = false;
-                                condition13.Visible = false;
-                                condition14.Visible = false;
-                                condition15.Visible = false;
-                                condition16.Visible = false;
-                                condition17.Visible = false;
-                                condition18.Visible = false;
-                                condition19.Visible = false;
-                                condition20.Visible = false;
-                                condition21.Visible = false;
-                                condition22.Visible = false;
-                                condition23.Visible = false;
-                                condition24.Visible = false;
-                                condition25.Visible = false;
-                                condition26.Visible = false;
-                                condition27.Visible = false;
-                                condition28.Visible = false;
-                                condition29.Visible = false;
-                                condition30.Visible = false;
-                                condition31.Visible = false;
-                                condition32.Visible = false;
-                                condition33.Visible = false;
-                                condition34.Visible = false;
-                                condition35.Visible = false;
-                                condition36.Visible = false;
-                                condition37.Visible = false;
-                                condition38.Visible = false;
-                                condition39.Visible = false;
-                                condition40.Visible = false;
-                                condition41.Visible = false;
-                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit42();</script>");
+                                
+                                ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
                                 SqlConnection con44 = new SqlConnection(str);
                                 con44.Open();
@@ -12082,1831 +5356,6 @@ namespace FirstImpressions
           Response.Redirect("StudyPage1.aspx");    
        }
      }
-
-   protected void btnSubmit2_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings1";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList3.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList4.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");   
-       }
-   }
-
-   protected void btnSubmit3_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings1";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList5.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList6.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");    
-       }
-   }
-
-   protected void btnSubmit4_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings1";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList7.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList8.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");  
-       }
-   }
-
-   protected void btnSubmit5_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings2";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList9.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList10.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList11.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList12.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");     
-       }
-   }
-
-   protected void btnSubmit6_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings2";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList13.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList14.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList15.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList16.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");  
-       }
-   }
-
-   protected void btnSubmit7_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings2";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList17.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList18.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList19.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList20.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");  
-       }
-   }
-
-   protected void btnSubmit8_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings2";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList21.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList22.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList23.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList24.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");  
-       }
-   }
-
-   protected void btnSubmit9_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings2";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList25.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList26.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList27.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList28.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");  
-       }
-   }
-
-   protected void btnSubmit10_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings2";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList29.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList30.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList31.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList32.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");    
-       }
-   }
-
-   protected void btnSubmit11_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings2";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList33.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList34.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList35.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList36.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");  
-       }
-   }
-
-   protected void btnSubmit12_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings2";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList37.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList38.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList39.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList40.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");  
-       }
-   }
-
-   protected void btnSubmit13_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings2";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList41.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList42.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList43.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList44.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");  
-       }
-   }
-
-   protected void btnSubmit14_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings2";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList45.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList46.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList47.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList48.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");  
-       }
-   }
-
-   protected void btnSubmit15_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings2";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList49.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList50.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList51.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList52.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");  
-       }
-   }
-
-   protected void btnSubmit16_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings2";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList53.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList54.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList55.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList56.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");      
-       }
-   }
-
-   protected void btnSubmit17_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings2";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList57.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList58.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList59.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList60.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");  
-       }
-   }
-
-   protected void btnSubmit18_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings2";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList61.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList62.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList63.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList64.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");   
-       }
-   }
-
-   protected void btnSubmit19_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings3";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList65.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList66.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList67.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList68.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist3a", RadioButtonList69.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist3a", RadioButtonList70.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");  
-       }
-   }
-
-   protected void btnSubmit20_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings3";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList71.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList72.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList73.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList74.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist3a", RadioButtonList75.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist3a", RadioButtonList76.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");  
-       }
-   }
-
-   protected void btnSubmit21_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings3";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList77.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList78.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList79.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList80.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist3a", RadioButtonList81.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist3a", RadioButtonList82.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");  
-       }
-   }
-
-   protected void btnSubmit22_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings3";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList83.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList84.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList85.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList86.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist3a", RadioButtonList87.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist3a", RadioButtonList88.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");  
-       }
-   }
-
-   protected void btnSubmit23_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings3";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList89.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList90.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList91.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList92.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist3a", RadioButtonList93.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist3a", RadioButtonList94.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");  
-       }
-   }
-
-   protected void btnSubmit24_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings3";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList95.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList96.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList97.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList98.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist3a", RadioButtonList99.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist3a", RadioButtonList100.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");  
-       }
-   }
-
-   protected void btnSubmit25_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings3";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList101.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList102.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList103.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList104.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist3a", RadioButtonList105.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist3a", RadioButtonList106.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");  
-       }
-   }
-
-   protected void btnSubmit26_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings3";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList107.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList108.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList109.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList110.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist3a", RadioButtonList111.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist3a", RadioButtonList112.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");  
-       }
-   }
-
-   protected void btnSubmit27_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings3";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList113.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList114.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList115.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList116.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist3a", RadioButtonList117.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist3a", RadioButtonList118.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");  
-       }
-   }
-
-   protected void btnSubmit28_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings3";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList119.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList120.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList121.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList122.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist3a", RadioButtonList123.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist3a", RadioButtonList124.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");  
-       }
-   }
-
-   protected void btnSubmit29_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings3";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList125.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList126.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList127.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList128.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist3a", RadioButtonList129.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist3a", RadioButtonList130.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");     
-       }
-   }
-
-   protected void btnSubmit30_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings3";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList131.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList132.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList133.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList134.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist3a", RadioButtonList135.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist3a", RadioButtonList136.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");  
-       }
-   }
-
-   protected void btnSubmit31_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings3";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList137.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList138.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList139.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList140.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist3a", RadioButtonList141.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist3a", RadioButtonList142.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");  
-       }
-   }
-
-   protected void btnSubmit32_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings3";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList143.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList144.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList145.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList146.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist3a", RadioButtonList147.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist3a", RadioButtonList148.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");  
-       }
-   }
-
-   protected void btnSubmit33_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings4";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList149.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList150.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList151.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList152.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist3a", RadioButtonList153.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist3a", RadioButtonList154.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist4a", RadioButtonList155.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist4a", RadioButtonList156.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");  
-       }
-   }
-
-   protected void btnSubmit34_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings4";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList157.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList158.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList159.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList160.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist3a", RadioButtonList161.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist3a", RadioButtonList162.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist4a", RadioButtonList163.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist4a", RadioButtonList164.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");  
-       }
-   }
-
-   protected void btnSubmit35_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings4";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList165.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList166.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList167.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList168.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist3a", RadioButtonList169.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist3a", RadioButtonList170.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist4a", RadioButtonList171.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist4a", RadioButtonList172.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");  
-       }
-   }
-
-   protected void btnSubmit36_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings4";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList173.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList174.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList175.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList176.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist3a", RadioButtonList177.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist3a", RadioButtonList178.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist4a", RadioButtonList179.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist4a", RadioButtonList180.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");  
-       }
-   }
-
-   protected void btnSubmit37_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings4";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList181.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList182.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList183.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList184.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist3a", RadioButtonList185.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist3a", RadioButtonList186.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist4a", RadioButtonList187.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist4a", RadioButtonList188.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");  
-       }
-   }
-
-   protected void btnSubmit38_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings4";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList189.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList190.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList191.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList192.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist3a", RadioButtonList193.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist3a", RadioButtonList194.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist4a", RadioButtonList195.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist4a", RadioButtonList196.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");     
-       }
-   }
-
-   protected void btnSubmit39_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings4";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList197.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList198.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList199.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList200.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist3a", RadioButtonList201.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist3a", RadioButtonList202.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist4a", RadioButtonList203.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist4a", RadioButtonList204.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");  
-       }
-   }
-
-   protected void btnSubmit40_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings4";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList205.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList206.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList207.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList208.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist3a", RadioButtonList209.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist3a", RadioButtonList210.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist4a", RadioButtonList211.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist4a", RadioButtonList212.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");  
-       }
-   }
-
-   protected void btnSubmit41_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings4";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList213.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList214.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList215.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList216.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist3a", RadioButtonList217.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist3a", RadioButtonList218.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist4a", RadioButtonList219.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist4a", RadioButtonList220.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");  
-       }
-   }
-
-   protected void btnSubmit42_Click(object sender, EventArgs e)
-   {
-       string str = getConnectionString();
-       string UserId = Session["UserId"].ToString();
-       int pictureid = Convert.ToInt32(Session["PictureId"]);    
-       SqlConnection con = new SqlConnection(str);
-       con.Open();
-       string teststr = "spInsertTrustRatings4";
-       SqlCommand command = new SqlCommand(teststr, con);
-       command.CommandType = CommandType.StoredProcedure;
-
-       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-       command.Parameters.AddWithValue("@pictureid", pictureid);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList221.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList222.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist2a", RadioButtonList223.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist2a", RadioButtonList224.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist3a", RadioButtonList225.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist3a", RadioButtonList226.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@trustlist4a", RadioButtonList227.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist4a", RadioButtonList228.Text.ToString().Trim());
-       int result = command.ExecuteNonQuery();
-       if (result == 1)
-       {
-           command.Dispose();
-           con.Close();
-           SqlConnection con45 = new SqlConnection(str);
-           con45.Open();
-           string teststr45 = "spUpdatePhotoCompletion1";
-           SqlCommand command45 = new SqlCommand(teststr45, con45);
-           command45.CommandType = CommandType.StoredProcedure;
-           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-           command45.Parameters.AddWithValue("@pictureid", pictureid);
-           int result1 = command45.ExecuteNonQuery();
-           if (result1 == 1)
-           {
-               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-           }
-
-           command45.Dispose();
-           con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");  
-       }
-   }
 
    }
 }
