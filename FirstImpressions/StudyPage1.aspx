@@ -298,8 +298,8 @@ function initSubmit1()
 
 <br /> <br /> 
 <div id="header" runat="server">
-<asp:Image ID="Image1" runat="server" style="margin-left: 300px"/> <br /> 
-<p style="text-align:center"> Picture 1 </p> <br /> 
+<asp:Image ID="Image1" runat="server" style="margin-left: 300px"/> <br /> <br />
+<p style="text-align:center"> Picture 1 </p> 
 <hr>
 </div> 
 
