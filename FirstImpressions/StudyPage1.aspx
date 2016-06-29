@@ -300,28 +300,37 @@ function initSubmit1()
 <div id="header" runat="server">
 <asp:Image ID="Image1" runat="server" style="margin-left: 300px"/> <br /> <br />
 <p style="text-align:center"> Picture 1 </p> 
-<hr style="border:1pt solid black">
+<hr style="border:1px solid black">
 </div> 
 
 <div id="header1" runat="server" style="white-space: nowrap">
 <asp:Image ID="Image2" runat="server" style="margin-left: 0px"/>
+<p style="text-align:center"> Picture 1 </p> 
 <asp:Image ID="Image3" runat="server" style="margin-left: 0px"/>
-<hr>
+<p style="text-align:center"> Picture 2 </p> 
+<hr style="border:1px solid black">
 </div> 
 
 <div id="header2" runat="server" style="white-space: nowrap">
 <asp:Image ID="Image4" runat="server" style="margin-left: 0px"/>
+<p style="text-align:center"> Picture 1 </p> 
 <asp:Image ID="Image5" runat="server" style="margin-left: 0px"/>
+<p style="text-align:center"> Picture 2 </p> 
 <asp:Image ID="Image6" runat="server" style="margin-left: 0px"/>
-<hr>
+<p style="text-align:center"> Picture 3 </p> 
+<hr style="border:1px solid black">
 </div> 
 
 <div id="header3" runat="server" style="white-space: nowrap">
 <asp:Image ID="Image7" runat="server" style="margin-left: 0px"/>
+<p style="text-align:center"> Picture 1 </p> 
 <asp:Image ID="Image8" runat="server" style="margin-left: 0px"/>
+<p style="text-align:center"> Picture 2 </p> 
 <asp:Image ID="Image9" runat="server" style="margin-left: 0px"/>
+<p style="text-align:center"> Picture 3 </p> 
 <asp:Image ID="Image10" runat="server" style="margin-left: 0px"/>
-<hr>
+<p style="text-align:center"> Picture 4 </p> 
+<hr style="border:1px solid black">
 </div> 
 
 <br /> <br /> 
