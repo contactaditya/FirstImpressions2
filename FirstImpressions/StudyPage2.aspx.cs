@@ -71,7 +71,7 @@ namespace FirstImpressions
                                 PictureName.Add(Convert.ToString(dataReader2[0]));
                                 Count.Add(Convert.ToInt32(dataReader2[1]));
                                 Condition.Add(Convert.ToInt32(dataReader2[2]));
-                                SetId.Add(Convert.ToInt32(dataReader2[3]));
+                                SetId.Add(Convert.ToString(dataReader2[3]));
                             }
 
                         }
@@ -1542,7 +1542,7 @@ namespace FirstImpressions
                                 PictureName.Add(Convert.ToString(dataReader2[0]));
                                 Count.Add(Convert.ToInt32(dataReader2[1]));
                                 Condition.Add(Convert.ToInt32(dataReader2[2]));
-                                SetId.Add(Convert.ToInt32(dataReader2[3]));
+                                SetId.Add(Convert.ToString(dataReader2[3]));
                             }
 
                         }
@@ -3000,7 +3000,7 @@ namespace FirstImpressions
                                 PictureName.Add(Convert.ToString(dataReader2[0]));
                                 Count.Add(Convert.ToInt32(dataReader2[1]));
                                 Condition.Add(Convert.ToInt32(dataReader2[2]));
-                                SetId.Add(Convert.ToInt32(dataReader2[3]));
+                                SetId.Add(Convert.ToString(dataReader2[3]));
                             }
 
                         }
@@ -4449,7 +4449,7 @@ namespace FirstImpressions
                                 PictureName.Add(Convert.ToString(dataReader2[0]));
                                 Count.Add(Convert.ToInt32(dataReader2[1]));
                                 Condition.Add(Convert.ToInt32(dataReader2[2]));
-                                SetId.Add(Convert.ToInt32(dataReader2[3]));
+                                SetId.Add(Convert.ToString(dataReader2[3]));
                             }
 
                         }
