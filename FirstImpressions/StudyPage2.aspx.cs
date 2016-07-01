@@ -61,6 +61,7 @@ namespace FirstImpressions
                         ArrayList PictureName = new ArrayList();
                         ArrayList Count = new ArrayList();
                         ArrayList Condition = new ArrayList();
+                        ArrayList SetId = new ArrayList();
 
                         if (dataReader2.HasRows)
                         {
@@ -70,12 +71,14 @@ namespace FirstImpressions
                                 PictureName.Add(Convert.ToString(dataReader2[0]));
                                 Count.Add(Convert.ToInt32(dataReader2[1]));
                                 Condition.Add(Convert.ToInt32(dataReader2[2]));
+                                SetId.Add(Convert.ToInt32(dataReader2[3]));
                             }
 
                         }
                         Session["PictureName"] = PictureName;
                         Session["Count"] = Count;
                         Session["Condition"] = Condition;
+                        Session["SetId"] = SetId;
 
                         dataReader2.Close();
                         command2.Dispose();
@@ -86,8 +89,10 @@ namespace FirstImpressions
                             ArrayList PictureName1 = (ArrayList)Session["PictureName"];
                             ArrayList Count1 = (ArrayList)Session["Count"];
                             ArrayList Condition1 = (ArrayList)Session["Condition"];
+                            ArrayList SetId1 = (ArrayList)Session["SetId"];
                             string picturename = (string)PictureName1[0];
                             int conditions = (int)Condition1[0];
+                            string setid = (string)SetId1[0];
                             Image1.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
 
                             if (conditions == 1)
@@ -216,10 +221,13 @@ namespace FirstImpressions
                             ArrayList PictureName2 = (ArrayList)Session["PictureName"];
                             ArrayList Count2 = (ArrayList)Session["Count"];
                             ArrayList Condition2 = (ArrayList)Session["Condition"];
+                            ArrayList SetId2 = (ArrayList)Session["SetId"];
                             string picturename = (string)PictureName2[0];
                             int conditions = (int)Condition2[0];
+                            string setid = (string)SetId2[0];
                             string picturename1 = (string)PictureName2[1];
                             int conditions1 = (int)Condition2[1];
+                            string setid1 = (string)SetId2[1];
 
                             Image2.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
                             Image3.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename1 + ".jpg";
@@ -641,7 +649,6 @@ namespace FirstImpressions
                                 
                                 ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit1();</script>");
 
-
                                 SqlConnection con20 = new SqlConnection(str);
                                 con20.Open();
                                 string teststr20 = "spUpdatePhoto5";
@@ -668,12 +675,16 @@ namespace FirstImpressions
                             ArrayList PictureName3 = (ArrayList)Session["PictureName"];
                             ArrayList Count3 = (ArrayList)Session["Count"];
                             ArrayList Condition3 = (ArrayList)Session["Condition"];
+                            ArrayList SetId3 = (ArrayList)Session["SetId"];
                             string picturename = (string)PictureName3[0];
                             int conditions = (int)Condition3[0];
+                            string setid = (string)SetId3[0];
                             string picturename1 = (string)PictureName3[1];
                             int conditions1 = (int)Condition3[1];
+                            string setid1 = (string)SetId3[1];
                             string picturename2 = (string)PictureName3[2];
                             int conditions2 = (int)Condition3[2];
+                            string setid2 = (string)SetId3[2];
 
                             Image4.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
                             Image5.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename1 + ".jpg";
@@ -1131,14 +1142,20 @@ namespace FirstImpressions
                             ArrayList PictureName4 = (ArrayList)Session["PictureName"];
                             ArrayList Count4 = (ArrayList)Session["Count"];
                             ArrayList Condition4 = (ArrayList)Session["Condition"];
+                            ArrayList SetId4 = (ArrayList)Session["SetId"];
                             string picturename = (string)PictureName4[0];
                             int conditions = (int)Condition4[0];
+                            string setid = (string)SetId4[0];
                             string picturename1 = (string)PictureName4[1];
                             int conditions1 = (int)Condition4[1];
+                            string setid1 = (string)SetId4[1];
                             string picturename2 = (string)PictureName4[2];
                             int conditions2 = (int)Condition4[2];
+                            string setid2 = (string)SetId4[2];
                             string picturename3 = (string)PictureName4[3];
                             int conditions3 = (int)Condition4[3];
+                            string setid3 = (string)SetId4[3];
+
                             Image7.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
                             Image8.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename1 + ".jpg";
                             Image9.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename2 + ".jpg";
@@ -1515,6 +1532,7 @@ namespace FirstImpressions
                         ArrayList PictureName = new ArrayList();
                         ArrayList Count = new ArrayList();
                         ArrayList Condition = new ArrayList();
+                        ArrayList SetId = new ArrayList();
 
                         if (dataReader2.HasRows)
                         {
@@ -1524,12 +1542,14 @@ namespace FirstImpressions
                                 PictureName.Add(Convert.ToString(dataReader2[0]));
                                 Count.Add(Convert.ToInt32(dataReader2[1]));
                                 Condition.Add(Convert.ToInt32(dataReader2[2]));
+                                SetId.Add(Convert.ToInt32(dataReader2[3]));
                             }
 
                         }
                         Session["PictureName"] = PictureName;
                         Session["Count"] = Count;
                         Session["Condition"] = Condition;
+                        Session["SetId"] = SetId;
 
                         dataReader2.Close();
                         command2.Dispose();
@@ -1540,8 +1560,10 @@ namespace FirstImpressions
                             ArrayList PictureName1 = (ArrayList)Session["PictureName"];
                             ArrayList Count1 = (ArrayList)Session["Count"];
                             ArrayList Condition1 = (ArrayList)Session["Condition"];
+                            ArrayList SetId1 = (ArrayList)Session["SetId"];
                             string picturename = (string)PictureName1[0];
                             int conditions = (int)Condition1[0];
+                            string setid = (string)SetId1[0];
 
                             Image1.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
 
@@ -1671,10 +1693,13 @@ namespace FirstImpressions
                             ArrayList PictureName2 = (ArrayList)Session["PictureName"];
                             ArrayList Count2 = (ArrayList)Session["Count"];
                             ArrayList Condition2 = (ArrayList)Session["Condition"];
+                            ArrayList SetId2 = (ArrayList)Session["SetId"];
                             string picturename = (string)PictureName2[0];
                             int conditions = (int)Condition2[0];
+                            string setid = (string)SetId2[0];
                             string picturename1 = (string)PictureName2[1];
                             int conditions1 = (int)Condition2[1];
+                            string setid1 = (string)SetId2[1];
 
                             Image2.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
                             Image3.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename1 + ".jpg";
@@ -2124,12 +2149,16 @@ namespace FirstImpressions
                             ArrayList PictureName3 = (ArrayList)Session["PictureName"];
                             ArrayList Count3 = (ArrayList)Session["Count"];
                             ArrayList Condition3 = (ArrayList)Session["Condition"];
+                            ArrayList SetId3 = (ArrayList)Session["SetId"];
                             string picturename = (string)PictureName3[0];
                             int conditions = (int)Condition3[0];
+                            string setid = (string)SetId3[0];
                             string picturename1 = (string)PictureName3[1];
                             int conditions1 = (int)Condition3[1];
+                            string setid1 = (string)SetId3[1];
                             string picturename2 = (string)PictureName3[2];
                             int conditions2 = (int)Condition3[2];
+                            string setid2 = (string)SetId3[2];
 
                             Image4.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
                             Image5.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename1 + ".jpg";
@@ -2588,14 +2617,20 @@ namespace FirstImpressions
                             ArrayList PictureName4 = (ArrayList)Session["PictureName"];
                             ArrayList Count4 = (ArrayList)Session["Count"];
                             ArrayList Condition4 = (ArrayList)Session["Condition"];
+                            ArrayList SetId4 = (ArrayList)Session["SetId"];
                             string picturename = (string)PictureName4[0];
                             int conditions = (int)Condition4[0];
+                            string setid = (string)SetId4[0];
                             string picturename1 = (string)PictureName4[1];
                             int conditions1 = (int)Condition4[1];
+                            string setid1 = (string)SetId4[1];
                             string picturename2 = (string)PictureName4[2];
                             int conditions2 = (int)Condition4[2];
+                            string setid2 = (string)SetId4[2];
                             string picturename3 = (string)PictureName4[3];
                             int conditions3 = (int)Condition4[3];
+                            string setid3 = (string)SetId4[3];
+
                             Image7.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
                             Image8.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename1 + ".jpg";
                             Image9.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename2 + ".jpg";
@@ -2955,6 +2990,7 @@ namespace FirstImpressions
                         ArrayList PictureName = new ArrayList();
                         ArrayList Count = new ArrayList();
                         ArrayList Condition = new ArrayList();
+                        ArrayList SetId = new ArrayList();
 
                         if (dataReader2.HasRows)
                         {
@@ -2964,12 +3000,14 @@ namespace FirstImpressions
                                 PictureName.Add(Convert.ToString(dataReader2[0]));
                                 Count.Add(Convert.ToInt32(dataReader2[1]));
                                 Condition.Add(Convert.ToInt32(dataReader2[2]));
+                                SetId.Add(Convert.ToInt32(dataReader2[3]));
                             }
 
                         }
                         Session["PictureName"] = PictureName;
                         Session["Count"] = Count;
                         Session["Condition"] = Condition;
+                        Session["SetId"] = SetId;
 
                         dataReader2.Close();
                         command2.Dispose();
@@ -2980,8 +3018,11 @@ namespace FirstImpressions
                             ArrayList PictureName1 = (ArrayList)Session["PictureName"];
                             ArrayList Count1 = (ArrayList)Session["Count"];
                             ArrayList Condition1 = (ArrayList)Session["Condition"];
+                            ArrayList SetId1 = (ArrayList)Session["SetId"];
                             string picturename = (string)PictureName1[0];
                             int conditions = (int)Condition1[0];
+                            string setid = (string)SetId1[0];
+                          
                             Image1.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
 
                             if (conditions == 1)
@@ -3110,10 +3151,13 @@ namespace FirstImpressions
                             ArrayList PictureName2 = (ArrayList)Session["PictureName"];
                             ArrayList Count2 = (ArrayList)Session["Count"];
                             ArrayList Condition2 = (ArrayList)Session["Condition"];
+                            ArrayList SetId2 = (ArrayList)Session["SetId"];
                             string picturename = (string)PictureName2[0];
                             int conditions = (int)Condition2[0];
+                            string setid = (string)SetId2[0];
                             string picturename1 = (string)PictureName2[1];
                             int conditions1 = (int)Condition2[1];
+                            string setid1 = (string)SetId2[1];
 
                             Image2.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
                             Image3.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename1 + ".jpg";
@@ -3562,12 +3606,16 @@ namespace FirstImpressions
                             ArrayList PictureName3 = (ArrayList)Session["PictureName"];
                             ArrayList Count3 = (ArrayList)Session["Count"];
                             ArrayList Condition3 = (ArrayList)Session["Condition"];
+                            ArrayList SetId3 = (ArrayList)Session["SetId"];
                             string picturename = (string)PictureName3[0];
                             int conditions = (int)Condition3[0];
+                            string setid = (string)SetId3[0];
                             string picturename1 = (string)PictureName3[1];
                             int conditions1 = (int)Condition3[1];
+                            string setid1 = (string)SetId3[1];
                             string picturename2 = (string)PictureName3[2];
                             int conditions2 = (int)Condition3[2];
+                            string setid2 = (string)SetId3[2];
 
                             Image4.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
                             Image5.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename1 + ".jpg";
@@ -4026,14 +4074,20 @@ namespace FirstImpressions
                             ArrayList PictureName4 = (ArrayList)Session["PictureName"];
                             ArrayList Count4 = (ArrayList)Session["Count"];
                             ArrayList Condition4 = (ArrayList)Session["Condition"];
+                            ArrayList SetId4 = (ArrayList)Session["SetId"];
                             string picturename = (string)PictureName4[0];
                             int conditions = (int)Condition4[0];
+                            string setid = (string)SetId4[0];
                             string picturename1 = (string)PictureName4[1];
                             int conditions1 = (int)Condition4[1];
+                            string setid1 = (string)SetId4[1];
                             string picturename2 = (string)PictureName4[2];
                             int conditions2 = (int)Condition4[2];
+                            string setid2 = (string)SetId4[2];
                             string picturename3 = (string)PictureName4[3];
                             int conditions3 = (int)Condition4[3];
+                            string setid3 = (string)SetId4[3];
+
                             Image7.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
                             Image8.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename1 + ".jpg";
                             Image9.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename2 + ".jpg";
@@ -4385,6 +4439,7 @@ namespace FirstImpressions
                         ArrayList PictureName = new ArrayList();
                         ArrayList Count = new ArrayList();
                         ArrayList Condition = new ArrayList();
+                        ArrayList SetId = new ArrayList();
 
                         if (dataReader2.HasRows)
                         {
@@ -4394,12 +4449,14 @@ namespace FirstImpressions
                                 PictureName.Add(Convert.ToString(dataReader2[0]));
                                 Count.Add(Convert.ToInt32(dataReader2[1]));
                                 Condition.Add(Convert.ToInt32(dataReader2[2]));
+                                SetId.Add(Convert.ToInt32(dataReader2[3]));
                             }
 
                         }
                         Session["PictureName"] = PictureName;
                         Session["Count"] = Count;
                         Session["Condition"] = Condition;
+                        Session["SetId"] = SetId;
 
                         dataReader2.Close();
                         command2.Dispose();
@@ -4410,8 +4467,10 @@ namespace FirstImpressions
                             ArrayList PictureName1 = (ArrayList)Session["PictureName"];
                             ArrayList Count1 = (ArrayList)Session["Count"];
                             ArrayList Condition1 = (ArrayList)Session["Condition"];
+                            ArrayList SetId1 = (ArrayList)Session["SetId"];
                             string picturename = (string)PictureName1[0];
                             int conditions = (int)Condition1[0];
+                            string setid = (string)SetId1[0];
 
                             Image1.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
 
@@ -4541,10 +4600,13 @@ namespace FirstImpressions
                             ArrayList PictureName2 = (ArrayList)Session["PictureName"];
                             ArrayList Count2 = (ArrayList)Session["Count"];
                             ArrayList Condition2 = (ArrayList)Session["Condition"];
+                            ArrayList SetId2 = (ArrayList)Session["SetId"];
                             string picturename = (string)PictureName2[0];
                             int conditions = (int)Condition2[0];
+                            string setid = (string)SetId2[0];
                             string picturename1 = (string)PictureName2[1];
                             int conditions1 = (int)Condition2[1];
+                            string setid1 = (string)SetId2[1];
 
                             Image2.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
                             Image3.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename1 + ".jpg";
@@ -4994,12 +5056,16 @@ namespace FirstImpressions
                             ArrayList PictureName3 = (ArrayList)Session["PictureName"];
                             ArrayList Count3 = (ArrayList)Session["Count"];
                             ArrayList Condition3 = (ArrayList)Session["Condition"];
+                            ArrayList SetId3 = (ArrayList)Session["SetId"];
                             string picturename = (string)PictureName3[0];
                             int conditions = (int)Condition3[0];
+                            string setid = (string)SetId3[0];
                             string picturename1 = (string)PictureName3[1];
                             int conditions1 = (int)Condition3[1];
+                            string setid1 = (string)SetId3[1];
                             string picturename2 = (string)PictureName3[2];
                             int conditions2 = (int)Condition3[2];
+                            string setid2 = (string)SetId3[2];
 
                             Image4.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
                             Image5.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename1 + ".jpg";
@@ -5458,14 +5524,20 @@ namespace FirstImpressions
                             ArrayList PictureName4 = (ArrayList)Session["PictureName"];
                             ArrayList Count4 = (ArrayList)Session["Count"];
                             ArrayList Condition4 = (ArrayList)Session["Condition"];
+                            ArrayList SetId4 = (ArrayList)Session["SetId"];
                             string picturename = (string)PictureName4[0];
                             int conditions = (int)Condition4[0];
+                            string setid = (string)SetId4[0];
                             string picturename1 = (string)PictureName4[1];
                             int conditions1 = (int)Condition4[1];
+                            string setid1 = (string)SetId4[1];
                             string picturename2 = (string)PictureName4[2];
                             int conditions2 = (int)Condition4[2];
+                            string setid2 = (string)SetId4[2];
                             string picturename3 = (string)PictureName4[3];
                             int conditions3 = (int)Condition4[3];
+                            string setid3 = (string)SetId4[3];
+
                             Image7.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
                             Image8.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename1 + ".jpg";
                             Image9.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename2 + ".jpg";
