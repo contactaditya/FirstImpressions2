@@ -319,7 +319,7 @@ function initSubmit1()
 </div> 
 
 <div id="header2" runat="server" style="white-space: nowrap">
-<figure>
+
 <asp:Image ID="Image4" runat="server" style="margin-left: 0px"/> <br /> <br />
 <figcaption style ="text-align: center"> Picture 1 </figcaption>
 
@@ -328,7 +328,7 @@ function initSubmit1()
 
 <asp:Image ID="Image6" runat="server" style="margin-left: 0px"/> <br /> <br />
 <figcaption style ="text-align: center"> Picture 3 </figcaption>
-</figure>
+
 <hr style="border:1px solid black">
 </div> 
 
