@@ -297,39 +297,60 @@ function initSubmit1()
 </script>
 
 <br /> <br /> 
-<div id="header" runat="server" style="text-align:center">
-<asp:Image ID="Image1" runat="server" style="margin-left: 300px"/> <br /> <br />
-<p style="text-align:justify"> Picture 1 </p> 
+
+<div id="header" runat="server">
+<figure>
+<asp:Image ID="Image1" runat="server" style="margin-left: 300px"/> 
+<figcaption> Picture 1 </figcaption>
+</figure>
 <hr style="border:1px solid black">
 </div> 
 
 <div id="header1" runat="server" style="white-space: nowrap">
-<asp:Image ID="Image2" runat="server" style="margin-left: 0px"/>
-<p style="text-align:center"> Picture 1 </p> 
-<asp:Image ID="Image3" runat="server" style="margin-left: 0px"/>
-<p style="text-align:center"> Picture 2 </p> 
+<figure>
+<asp:Image ID="Image2" runat="server" style="margin-left: 0px"/> 
+<figcaption> Picture 1 </figcaption>
+</figure>
+<figure>
+<asp:Image ID="Image3" runat="server" style="margin-left: 0px"/> 
+<figcaption> Picture 2 </figcaption>
+</figure>
 <hr style="border:1px solid black">
 </div> 
 
 <div id="header2" runat="server" style="white-space: nowrap">
-<asp:Image ID="Image4" runat="server" style="margin-left: 0px"/>
-<p style="text-align:center"> Picture 1 </p> 
-<asp:Image ID="Image5" runat="server" style="margin-left: 0px"/>
-<p style="text-align:center"> Picture 2 </p> 
-<asp:Image ID="Image6" runat="server" style="margin-left: 0px"/>
-<p style="text-align:center"> Picture 3 </p> 
+<figure>
+<asp:Image ID="Image4" runat="server" style="margin-left: 0px"/> 
+<figcaption> Picture 1 </figcaption>
+</figure>
+<figure>
+<asp:Image ID="Image5" runat="server" style="margin-left: 0px"/> 
+<figcaption> Picture 2 </figcaption>
+</figure>
+<figure>
+<asp:Image ID="Image6" runat="server" style="margin-left: 0px"/> 
+<figcaption> Picture 3 </figcaption>
+</figure>
 <hr style="border:1px solid black">
 </div> 
 
 <div id="header3" runat="server" style="white-space: nowrap">
-<asp:Image ID="Image7" runat="server" style="margin-left: 0px"/>
-<p style="text-align:center"> Picture 1 </p> 
-<asp:Image ID="Image8" runat="server" style="margin-left: 0px"/>
-<p style="text-align:center"> Picture 2 </p> 
-<asp:Image ID="Image9" runat="server" style="margin-left: 0px"/>
-<p style="text-align:center"> Picture 3 </p> 
-<asp:Image ID="Image10" runat="server" style="margin-left: 0px"/>
-<p style="text-align:center"> Picture 4 </p> 
+<figure>
+<asp:Image ID="Image7" runat="server" style="margin-left: 0px"/> 
+<figcaption> Picture 1 </figcaption>
+</figure>
+<figure>
+<asp:Image ID="Image8" runat="server" style="margin-left: 0px"/> 
+<figcaption> Picture 2 </figcaption>
+</figure>
+<figure>
+<asp:Image ID="Image9" runat="server" style="margin-left: 0px"/> 
+<figcaption> Picture 3 </figcaption>
+</figure>
+<figure>
+<asp:Image ID="Image10" runat="server" style="margin-left: 0px"/> 
+<figcaption> Picture 4 </figcaption>
+</figure>
 <hr style="border:1px solid black">
 </div> 
 
