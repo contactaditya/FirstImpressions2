@@ -47,7 +47,7 @@ namespace FirstImpressions
                 command1.Dispose();
                 con1.Close();
 
-                int pictureid = Convert.ToInt32(Session["PictureId"]);   
+                int pictureid = Convert.ToInt32(Session["PictureId"]);  
                 string raterslot = Session["RaterSlot"].ToString();    
                 SqlConnection con2 = new SqlConnection(str);
                 con2.Open();
@@ -61,6 +61,7 @@ namespace FirstImpressions
                 ArrayList PictureName = new ArrayList();
                 ArrayList Count = new ArrayList();
                 ArrayList Condition = new ArrayList();
+                ArrayList SetId = new ArrayList();
 
                 if (dataReader2.HasRows)
                 {
@@ -70,12 +71,14 @@ namespace FirstImpressions
                         PictureName.Add(Convert.ToString(dataReader2[0]));
                         Count.Add(Convert.ToInt32(dataReader2[1]));
                         Condition.Add(Convert.ToInt32(dataReader2[2]));
+                        SetId.Add(Convert.ToInt32(dataReader2[3]));
                     }
 
                 }
                 Session["PictureName"] = PictureName;
                 Session["Count"] = Count;
                 Session["Condition"] = Condition;
+                Session["SetId"] = SetId;
 
                 dataReader2.Close();
                 command2.Dispose();
@@ -86,8 +89,11 @@ namespace FirstImpressions
                     ArrayList PictureName1 = (ArrayList)Session["PictureName"];
                     ArrayList Count1 = (ArrayList)Session["Count"];
                     ArrayList Condition1 = (ArrayList)Session["Condition"];
+                    ArrayList SetId1 = (ArrayList)Session["SetId"];
                     string picturename = (string)PictureName1[0];
                     int conditions = (int)Condition1[0];
+                    string setid = (string)SetId1[0];
+
                     Image1.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
 
                     if(conditions == 1)
@@ -367,10 +373,13 @@ namespace FirstImpressions
                     ArrayList PictureName2 = (ArrayList)Session["PictureName"];
                     ArrayList Count2 = (ArrayList)Session["Count"];
                     ArrayList Condition2 = (ArrayList)Session["Condition"];
+                    ArrayList SetId2 = (ArrayList)Session["SetId"];
                     string picturename = (string)PictureName2[0];
+                    int conditions = (int)Condition2[0];
+                    string setid = (string)SetId2[0];
                     string picturename1 = (string)PictureName2[1];
-                    int conditions = (int)Condition2[0];            
                     int conditions1 = (int)Condition2[1];
+                    string setid1 = (string)SetId2[1];
 
                     Image2.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
                     Image3.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename1 + ".jpg";
@@ -1338,12 +1347,16 @@ namespace FirstImpressions
                     ArrayList PictureName3 = (ArrayList)Session["PictureName"];
                     ArrayList Count3 = (ArrayList)Session["Count"];
                     ArrayList Condition3 = (ArrayList)Session["Condition"];
+                    ArrayList SetId3 = (ArrayList)Session["SetId"];
                     string picturename = (string)PictureName3[0];
                     int conditions = (int)Condition3[0];
+                    string setid = (string)SetId3[0];
                     string picturename1 = (string)PictureName3[1];
                     int conditions1 = (int)Condition3[1];
+                    string setid1 = (string)SetId3[1];
                     string picturename2 = (string)PictureName3[2];
                     int conditions2 = (int)Condition3[2];
+                    string setid2 = (string)SetId3[2];
 
                     Image4.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
                     Image5.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename1 + ".jpg";
@@ -2320,14 +2333,20 @@ namespace FirstImpressions
          ArrayList PictureName4 = (ArrayList)Session["PictureName"];
          ArrayList Count4 = (ArrayList)Session["Count"];
          ArrayList Condition4 = (ArrayList)Session["Condition"];
+         ArrayList SetId4 = (ArrayList)Session["SetId"];
          string picturename = (string)PictureName4[0];
          int conditions = (int)Condition4[0];
+         string setid = (string)SetId4[0];
          string picturename1 = (string)PictureName4[1];
          int conditions1 = (int)Condition4[1];
+         string setid1 = (string)SetId4[1];
          string picturename2 = (string)PictureName4[2];
          int conditions2 = (int)Condition4[2];
+         string setid2 = (string)SetId4[2];
          string picturename3 = (string)PictureName4[3];
          int conditions3 = (int)Condition4[3];
+         string setid3 = (string)SetId4[3];
+
          Image7.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
          Image8.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename1 + ".jpg";
          Image9.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename2 + ".jpg";
@@ -3073,6 +3092,7 @@ namespace FirstImpressions
                 ArrayList PictureName = new ArrayList();
                 ArrayList Count = new ArrayList();
                 ArrayList Condition = new ArrayList();
+                ArrayList SetId = new ArrayList();
 
                 if (dataReader2.HasRows)
                 {
@@ -3082,12 +3102,14 @@ namespace FirstImpressions
                         PictureName.Add(Convert.ToString(dataReader2[0]));
                         Count.Add(Convert.ToInt32(dataReader2[1]));
                         Condition.Add(Convert.ToInt32(dataReader2[2]));
+                        SetId.Add(Convert.ToInt32(dataReader2[3]));
                     }
 
                 }
                 Session["PictureName"] = PictureName;
                 Session["Count"] = Count;
                 Session["Condition"] = Condition;
+                Session["SetId"] = SetId;
 
                 dataReader2.Close();
                 command2.Dispose();
@@ -3098,8 +3120,10 @@ namespace FirstImpressions
                     ArrayList PictureName1 = (ArrayList)Session["PictureName"];
                     ArrayList Count1 = (ArrayList)Session["Count"];
                     ArrayList Condition1 = (ArrayList)Session["Condition"];
+                    ArrayList SetId1 = (ArrayList)Session["SetId"];
                     string picturename = (string)PictureName1[0];
                     int conditions = (int)Condition1[0];
+                    string setid = (string)SetId1[0];
                     Image1.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
 
                     if (conditions == 1)
@@ -3379,10 +3403,13 @@ namespace FirstImpressions
                     ArrayList PictureName2 = (ArrayList)Session["PictureName"];
                     ArrayList Count2 = (ArrayList)Session["Count"];
                     ArrayList Condition2 = (ArrayList)Session["Condition"];
+                    ArrayList SetId2 = (ArrayList)Session["SetId"];
                     string picturename = (string)PictureName2[0];
                     int conditions = (int)Condition2[0];
+                    string setid = (string)SetId2[0];
                     string picturename1 = (string)PictureName2[1];
                     int conditions1 = (int)Condition2[1];
+                    string setid1 = (string)SetId2[1];
 
                     Image2.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
                     Image3.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename1 + ".jpg";
@@ -4350,12 +4377,16 @@ namespace FirstImpressions
                     ArrayList PictureName3 = (ArrayList)Session["PictureName"];
                     ArrayList Count3 = (ArrayList)Session["Count"];
                     ArrayList Condition3 = (ArrayList)Session["Condition"];
+                    ArrayList SetId3 = (ArrayList)Session["SetId"];
                     string picturename = (string)PictureName3[0];
                     int conditions = (int)Condition3[0];
+                    string setid = (string)SetId3[0];
                     string picturename1 = (string)PictureName3[1];
                     int conditions1 = (int)Condition3[1];
+                    string setid1 = (string)SetId3[1];
                     string picturename2 = (string)PictureName3[2];
                     int conditions2 = (int)Condition3[2];
+                    string setid2 = (string)SetId3[2];
 
                     Image4.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
                     Image5.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename1 + ".jpg";
@@ -5332,14 +5363,20 @@ namespace FirstImpressions
                     ArrayList PictureName4 = (ArrayList)Session["PictureName"];
                     ArrayList Count4 = (ArrayList)Session["Count"];
                     ArrayList Condition4 = (ArrayList)Session["Condition"];
+                    ArrayList SetId4 = (ArrayList)Session["SetId"];
                     string picturename = (string)PictureName4[0];
                     int conditions = (int)Condition4[0];
+                    string setid = (string)SetId4[0];
                     string picturename1 = (string)PictureName4[1];
                     int conditions1 = (int)Condition4[1];
+                    string setid1 = (string)SetId4[1];
                     string picturename2 = (string)PictureName4[2];
                     int conditions2 = (int)Condition4[2];
+                    string setid2 = (string)SetId4[2];
                     string picturename3 = (string)PictureName4[3];
                     int conditions3 = (int)Condition4[3];
+                    string setid3 = (string)SetId4[3];
+
                     Image7.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
                     Image8.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename1 + ".jpg";
                     Image9.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename2 + ".jpg";
@@ -6069,6 +6106,7 @@ namespace FirstImpressions
                 ArrayList PictureName = new ArrayList();
                 ArrayList Count = new ArrayList();
                 ArrayList Condition = new ArrayList();
+                ArrayList SetId = new ArrayList();
 
                 if (dataReader2.HasRows)
                 {
@@ -6078,12 +6116,14 @@ namespace FirstImpressions
                         PictureName.Add(Convert.ToString(dataReader2[0]));
                         Count.Add(Convert.ToInt32(dataReader2[1]));
                         Condition.Add(Convert.ToInt32(dataReader2[2]));
+                        SetId.Add(Convert.ToInt32(dataReader2[3]));
                     }
 
                 }
                 Session["PictureName"] = PictureName;
                 Session["Count"] = Count;
                 Session["Condition"] = Condition;
+                Session["SetId"] = SetId;
 
                 dataReader2.Close();
                 command2.Dispose();
@@ -6094,8 +6134,11 @@ namespace FirstImpressions
                     ArrayList PictureName1 = (ArrayList)Session["PictureName"];
                     ArrayList Count1 = (ArrayList)Session["Count"];
                     ArrayList Condition1 = (ArrayList)Session["Condition"];
+                    ArrayList SetId1 = (ArrayList)Session["SetId"];
                     string picturename = (string)PictureName1[0];
                     int conditions = (int)Condition1[0];
+                    string setid = (string)SetId1[0];
+
                     Image1.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
 
                     if(conditions == 1)
@@ -6375,11 +6418,14 @@ namespace FirstImpressions
                     ArrayList PictureName2 = (ArrayList)Session["PictureName"];
                     ArrayList Count2 = (ArrayList)Session["Count"];
                     ArrayList Condition2 = (ArrayList)Session["Condition"];
+                    ArrayList SetId2 = (ArrayList)Session["SetId"];
                     string picturename = (string)PictureName2[0];
+                    int conditions = (int)Condition2[0];
+                    string setid = (string)SetId2[0];
                     string picturename1 = (string)PictureName2[1];
-                    int conditions = (int)Condition2[0];            
                     int conditions1 = (int)Condition2[1];
-
+                    string setid1 = (string)SetId2[1];
+       
                     Image2.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
                     Image3.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename1 + ".jpg";
 
@@ -7346,13 +7392,17 @@ namespace FirstImpressions
                     ArrayList PictureName3 = (ArrayList)Session["PictureName"];
                     ArrayList Count3 = (ArrayList)Session["Count"];
                     ArrayList Condition3 = (ArrayList)Session["Condition"];
+                    ArrayList SetId3 = (ArrayList)Session["SetId"];
                     string picturename = (string)PictureName3[0];
                     int conditions = (int)Condition3[0];
+                    string setid = (string)SetId3[0];
                     string picturename1 = (string)PictureName3[1];
                     int conditions1 = (int)Condition3[1];
+                    string setid1 = (string)SetId3[1];
                     string picturename2 = (string)PictureName3[2];
                     int conditions2 = (int)Condition3[2];
-
+                    string setid2 = (string)SetId3[2];
+                  
                     Image4.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
                     Image5.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename1 + ".jpg";
                     Image6.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename2 + ".jpg";
@@ -8328,14 +8378,20 @@ namespace FirstImpressions
          ArrayList PictureName4 = (ArrayList)Session["PictureName"];
          ArrayList Count4 = (ArrayList)Session["Count"];
          ArrayList Condition4 = (ArrayList)Session["Condition"];
+         ArrayList SetId4 = (ArrayList)Session["SetId"];
          string picturename = (string)PictureName4[0];
          int conditions = (int)Condition4[0];
+         string setid = (string)SetId4[0];
          string picturename1 = (string)PictureName4[1];
          int conditions1 = (int)Condition4[1];
+         string setid1 = (string)SetId4[1];
          string picturename2 = (string)PictureName4[2];
          int conditions2 = (int)Condition4[2];
+         string setid2 = (string)SetId4[2];
          string picturename3 = (string)PictureName4[3];
          int conditions3 = (int)Condition4[3];
+         string setid3 = (string)SetId4[3];
+
          Image7.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
          Image8.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename1 + ".jpg";
          Image9.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename2 + ".jpg";
@@ -9059,6 +9115,7 @@ namespace FirstImpressions
                 ArrayList PictureName = new ArrayList();
                 ArrayList Count = new ArrayList();
                 ArrayList Condition = new ArrayList();
+                ArrayList SetId = new ArrayList();
 
                 if (dataReader2.HasRows)
                 {
@@ -9068,12 +9125,14 @@ namespace FirstImpressions
                         PictureName.Add(Convert.ToString(dataReader2[0]));
                         Count.Add(Convert.ToInt32(dataReader2[1]));
                         Condition.Add(Convert.ToInt32(dataReader2[2]));
+                        SetId.Add(Convert.ToInt32(dataReader2[3]));
                     }
 
                 }
                 Session["PictureName"] = PictureName;
                 Session["Count"] = Count;
                 Session["Condition"] = Condition;
+                Session["SetId"] = SetId;
 
                 dataReader2.Close();
                 command2.Dispose();
@@ -9084,8 +9143,11 @@ namespace FirstImpressions
                     ArrayList PictureName1 = (ArrayList)Session["PictureName"];
                     ArrayList Count1 = (ArrayList)Session["Count"];
                     ArrayList Condition1 = (ArrayList)Session["Condition"];
+                    ArrayList SetId1 = (ArrayList)Session["SetId"];
                     string picturename = (string)PictureName1[0];
                     int conditions = (int)Condition1[0];
+                    string setid = (string)SetId1[0];
+
                     Image1.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
 
                     if (conditions == 1)
@@ -9365,10 +9427,13 @@ namespace FirstImpressions
                     ArrayList PictureName2 = (ArrayList)Session["PictureName"];
                     ArrayList Count2 = (ArrayList)Session["Count"];
                     ArrayList Condition2 = (ArrayList)Session["Condition"];
+                    ArrayList SetId2 = (ArrayList)Session["SetId"];
                     string picturename = (string)PictureName2[0];
                     int conditions = (int)Condition2[0];
+                    string setid = (string)SetId2[0];
                     string picturename1 = (string)PictureName2[1];
                     int conditions1 = (int)Condition2[1];
+                    string setid1 = (string)SetId2[1];
 
                     Image2.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
                     Image3.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename1 + ".jpg";
@@ -10336,13 +10401,17 @@ namespace FirstImpressions
                     ArrayList PictureName3 = (ArrayList)Session["PictureName"];
                     ArrayList Count3 = (ArrayList)Session["Count"];
                     ArrayList Condition3 = (ArrayList)Session["Condition"];
+                    ArrayList SetId3 = (ArrayList)Session["SetId"];
                     string picturename = (string)PictureName3[0];
                     int conditions = (int)Condition3[0];
+                    string setid = (string)SetId3[0];
                     string picturename1 = (string)PictureName3[1];
                     int conditions1 = (int)Condition3[1];
+                    string setid1 = (string)SetId3[1];
                     string picturename2 = (string)PictureName3[2];
                     int conditions2 = (int)Condition3[2];
-
+                    string setid2 = (string)SetId3[2];
+  
                     Image4.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
                     Image5.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename1 + ".jpg";
                     Image6.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename2 + ".jpg";
@@ -11318,14 +11387,20 @@ namespace FirstImpressions
                     ArrayList PictureName4 = (ArrayList)Session["PictureName"];
                     ArrayList Count4 = (ArrayList)Session["Count"];
                     ArrayList Condition4 = (ArrayList)Session["Condition"];
+                    ArrayList SetId4 = (ArrayList)Session["SetId"];
                     string picturename = (string)PictureName4[0];
                     int conditions = (int)Condition4[0];
+                    string setid = (string)SetId4[0];
                     string picturename1 = (string)PictureName4[1];
                     int conditions1 = (int)Condition4[1];
+                    string setid1 = (string)SetId4[1];
                     string picturename2 = (string)PictureName4[2];
                     int conditions2 = (int)Condition4[2];
+                    string setid2 = (string)SetId4[2];
                     string picturename3 = (string)PictureName4[3];
                     int conditions3 = (int)Condition4[3];
+                    string setid3 = (string)SetId4[3];
+
                     Image7.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename + ".jpg";
                     Image8.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename1 + ".jpg";
                     Image9.ImageUrl = "http://firstimpressions.azurewebsites.net/Pictures/" + picturename2 + ".jpg";
@@ -12049,6 +12124,9 @@ namespace FirstImpressions
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
             int pictureid = Convert.ToInt32(Session["PictureId"]);  
+            ArrayList SetId1 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId1[0];
+
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings1";
@@ -12056,7 +12134,7 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList1.Text.ToString().Trim());
             int result = command.ExecuteNonQuery();
             if (result == 1)
@@ -12089,7 +12167,9 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);  
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId1 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId1[0];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings2";
@@ -12097,7 +12177,7 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList2.Text.ToString().Trim());
             int result = command.ExecuteNonQuery();
             if (result == 1)
@@ -12129,7 +12209,9 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);    
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId1 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId1[0];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings3";
@@ -12137,7 +12219,7 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList3.Text.ToString().Trim());
             int result = command.ExecuteNonQuery();
             if (result == 1)
@@ -12169,7 +12251,9 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);    
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId1 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId1[0];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings4";
@@ -12177,7 +12261,7 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList4.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist1b", RadioButtonList5.Text.ToString().Trim());
             int result = command.ExecuteNonQuery();
@@ -12210,7 +12294,10 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);  
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId2 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId2[0];
+            string setid1 = (string)SetId2[1];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings5";
@@ -12218,7 +12305,8 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList6.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList7.Text.ToString().Trim());
             int result = command.ExecuteNonQuery();
@@ -12251,7 +12339,10 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);  
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId2 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId2[0];
+            string setid1 = (string)SetId2[1];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings6";
@@ -12259,7 +12350,8 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList8.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList9.Text.ToString().Trim());
             int result = command.ExecuteNonQuery();
@@ -12292,7 +12384,10 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);  
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId2 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId2[0];
+            string setid1 = (string)SetId2[1];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings7";
@@ -12300,7 +12395,8 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList10.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList11.Text.ToString().Trim());
             int result = command.ExecuteNonQuery();
@@ -12333,7 +12429,10 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);   
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId2 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId2[0];
+            string setid1 = (string)SetId2[1];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings8";
@@ -12341,7 +12440,8 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList12.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList13.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2b", RadioButtonList14.Text.ToString().Trim());
@@ -12375,7 +12475,10 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);   
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId2 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId2[0];
+            string setid1 = (string)SetId2[1];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings9";
@@ -12383,7 +12486,8 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList15.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList16.Text.ToString().Trim());
             int result = command.ExecuteNonQuery();
@@ -12416,7 +12520,10 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);  
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId2 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId2[0];
+            string setid1 = (string)SetId2[1];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings10";
@@ -12424,7 +12531,8 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList17.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList18.Text.ToString().Trim());
             int result = command.ExecuteNonQuery();
@@ -12457,7 +12565,10 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);   
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId2 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId2[0];
+            string setid1 = (string)SetId2[1];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings11";
@@ -12465,7 +12576,8 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList19.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList20.Text.ToString().Trim());
 
@@ -12499,7 +12611,10 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);   
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId2 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId2[0];
+            string setid1 = (string)SetId2[1];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings12";
@@ -12507,7 +12622,8 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList21.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList22.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2b", RadioButtonList23.Text.ToString().Trim());
@@ -12541,7 +12657,10 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);    
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId2 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId2[0];
+            string setid1 = (string)SetId2[1];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings13";
@@ -12549,7 +12668,8 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList24.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList25.Text.ToString().Trim());
  
@@ -12583,7 +12703,10 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);  
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId2 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId2[0];
+            string setid1 = (string)SetId2[1];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings14";
@@ -12591,7 +12714,8 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList26.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList27.Text.ToString().Trim());
             int result = command.ExecuteNonQuery();
@@ -12624,7 +12748,10 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);   
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId2 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId2[0];
+            string setid1 = (string)SetId2[1];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings15";
@@ -12632,7 +12759,8 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList28.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList29.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2b", RadioButtonList30.Text.ToString().Trim());
@@ -12666,7 +12794,10 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);  
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId2 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId2[0];
+            string setid1 = (string)SetId2[1];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings16";
@@ -12674,7 +12805,8 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList31.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist1b", RadioButtonList32.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList33.Text.ToString().Trim());
@@ -12709,7 +12841,10 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);  
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId2 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId2[0];
+            string setid1 = (string)SetId2[1];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings17";
@@ -12717,7 +12852,8 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList34.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist1b", RadioButtonList35.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList36.Text.ToString().Trim());
@@ -12752,7 +12888,10 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);   
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId2 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId2[0];
+            string setid1 = (string)SetId2[1];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings18";
@@ -12760,7 +12899,8 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList37.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist1b", RadioButtonList38.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList39.Text.ToString().Trim());
@@ -12796,7 +12936,12 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);  
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId3 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId3[0];
+            string setid1 = (string)SetId3[1];
+            string setid2 = (string)SetId3[2];
+
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings19";
@@ -12804,7 +12949,9 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
+            command.Parameters.AddWithValue("@setid2", setid2);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList41.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList42.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist3a", RadioButtonList43.Text.ToString().Trim());
@@ -12839,7 +12986,11 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);   
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId3 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId3[0];
+            string setid1 = (string)SetId3[1];
+            string setid2 = (string)SetId3[2];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings20";
@@ -12847,7 +12998,9 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
+            command.Parameters.AddWithValue("@setid2", setid2);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList44.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList45.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist3a", RadioButtonList46.Text.ToString().Trim());
@@ -12883,7 +13036,11 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);   
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId3 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId3[0];
+            string setid1 = (string)SetId3[1];
+            string setid2 = (string)SetId3[2];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings21";
@@ -12891,7 +13048,9 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
+            command.Parameters.AddWithValue("@setid2", setid2);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList48.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList49.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist3a", RadioButtonList50.Text.ToString().Trim());
@@ -12926,7 +13085,11 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);     
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId3 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId3[0];
+            string setid1 = (string)SetId3[1];
+            string setid2 = (string)SetId3[2];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings22";
@@ -12934,7 +13097,9 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
+            command.Parameters.AddWithValue("@setid2", setid2);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList51.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList52.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist3a", RadioButtonList53.Text.ToString().Trim());
@@ -12969,7 +13134,11 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);  
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId3 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId3[0];
+            string setid1 = (string)SetId3[1];
+            string setid2 = (string)SetId3[2];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings23";
@@ -12977,7 +13146,9 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
+            command.Parameters.AddWithValue("@setid2", setid2);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList54.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList55.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2b", RadioButtonList56.Text.ToString().Trim());
@@ -13013,7 +13184,11 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);   
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId3 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId3[0];
+            string setid1 = (string)SetId3[1];
+            string setid2 = (string)SetId3[2];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings24";
@@ -13021,7 +13196,9 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
+            command.Parameters.AddWithValue("@setid2", setid2);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList58.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList59.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2b", RadioButtonList60.Text.ToString().Trim());
@@ -13057,7 +13234,11 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);   
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId3 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId3[0];
+            string setid1 = (string)SetId3[1];
+            string setid2 = (string)SetId3[2];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings25";
@@ -13065,7 +13246,9 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
+            command.Parameters.AddWithValue("@setid2", setid2);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList62.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList63.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist3a", RadioButtonList64.Text.ToString().Trim());
@@ -13100,7 +13283,11 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);   
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId3 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId3[0];
+            string setid1 = (string)SetId3[1];
+            string setid2 = (string)SetId3[2];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings26";
@@ -13108,7 +13295,9 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
+            command.Parameters.AddWithValue("@setid2", setid2);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList65.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList66.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist3a", RadioButtonList67.Text.ToString().Trim());
@@ -13144,7 +13333,11 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);  
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId3 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId3[0];
+            string setid1 = (string)SetId3[1];
+            string setid2 = (string)SetId3[2];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings27";
@@ -13152,7 +13345,9 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
+            command.Parameters.AddWithValue("@setid2", setid2);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList69.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList70.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist3a", RadioButtonList71.Text.ToString().Trim());
@@ -13187,7 +13382,11 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);  
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId3 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId3[0];
+            string setid1 = (string)SetId3[1];
+            string setid2 = (string)SetId3[2];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings28";
@@ -13195,7 +13394,9 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
+            command.Parameters.AddWithValue("@setid2", setid2);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList72.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist1b", RadioButtonList73.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList74.Text.ToString().Trim());
@@ -13231,7 +13432,11 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);  
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId3 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId3[0];
+            string setid1 = (string)SetId3[1];
+            string setid2 = (string)SetId3[2];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings29";
@@ -13239,7 +13444,9 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
+            command.Parameters.AddWithValue("@setid2", setid2);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList76.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist1b", RadioButtonList77.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList78.Text.ToString().Trim());
@@ -13276,7 +13483,11 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);  
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId3 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId3[0];
+            string setid1 = (string)SetId3[1];
+            string setid2 = (string)SetId3[2];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings30";
@@ -13284,7 +13495,9 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
+            command.Parameters.AddWithValue("@setid2", setid2);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList81.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist1b", RadioButtonList82.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList83.Text.ToString().Trim());
@@ -13320,7 +13533,11 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);   
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId3 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId3[0];
+            string setid1 = (string)SetId3[1];
+            string setid2 = (string)SetId3[2];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings31";
@@ -13328,7 +13545,9 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
+            command.Parameters.AddWithValue("@setid2", setid2);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList85.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist1b", RadioButtonList86.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList87.Text.ToString().Trim());
@@ -13365,7 +13584,11 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);    
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId3 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId3[0];
+            string setid1 = (string)SetId3[1];
+            string setid2 = (string)SetId3[2];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings32";
@@ -13373,7 +13596,9 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
+            command.Parameters.AddWithValue("@setid2", setid2);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList90.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist1b", RadioButtonList91.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList92.Text.ToString().Trim());
@@ -13411,7 +13636,12 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);  
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId4 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId4[0];
+            string setid1 = (string)SetId4[1];
+            string setid2 = (string)SetId4[2];
+            string setid3 = (string)SetId4[3];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings33";
@@ -13419,7 +13649,10 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
+            command.Parameters.AddWithValue("@setid2", setid2);
+            command.Parameters.AddWithValue("@setid3", setid3);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList96.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList97.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist3a", RadioButtonList98.Text.ToString().Trim());
@@ -13455,7 +13688,12 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);  
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId4 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId4[0];
+            string setid1 = (string)SetId4[1];
+            string setid2 = (string)SetId4[2];
+            string setid3 = (string)SetId4[3];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings34";
@@ -13463,7 +13701,10 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
+            command.Parameters.AddWithValue("@setid2", setid2);
+            command.Parameters.AddWithValue("@setid3", setid3);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList100.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList101.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist3a", RadioButtonList102.Text.ToString().Trim());
@@ -13499,7 +13740,12 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);  
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId4 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId4[0];
+            string setid1 = (string)SetId4[1];
+            string setid2 = (string)SetId4[2];
+            string setid3 = (string)SetId4[3];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings35";
@@ -13507,7 +13753,10 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
+            command.Parameters.AddWithValue("@setid2", setid2);
+            command.Parameters.AddWithValue("@setid3", setid3);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList104.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList105.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2b", RadioButtonList106.Text.ToString().Trim());
@@ -13544,7 +13793,12 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);  
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId4 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId4[0];
+            string setid1 = (string)SetId4[1];
+            string setid2 = (string)SetId4[2];
+            string setid3 = (string)SetId4[3];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings36";
@@ -13552,7 +13806,10 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
+            command.Parameters.AddWithValue("@setid2", setid2);
+            command.Parameters.AddWithValue("@setid3", setid3);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList109.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList110.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2b", RadioButtonList111.Text.ToString().Trim());
@@ -13590,7 +13847,12 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);   
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId4 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId4[0];
+            string setid1 = (string)SetId4[1];
+            string setid2 = (string)SetId4[2];
+            string setid3 = (string)SetId4[3];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings37";
@@ -13598,7 +13860,10 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
+            command.Parameters.AddWithValue("@setid2", setid2);
+            command.Parameters.AddWithValue("@setid3", setid3);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList115.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist1b", RadioButtonList116.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList117.Text.ToString().Trim());
@@ -13635,7 +13900,12 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);    
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId4 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId4[0];
+            string setid1 = (string)SetId4[1];
+            string setid2 = (string)SetId4[2];
+            string setid3 = (string)SetId4[3];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings38";
@@ -13643,7 +13913,10 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
+            command.Parameters.AddWithValue("@setid2", setid2);
+            command.Parameters.AddWithValue("@setid3", setid3);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList120.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist1b", RadioButtonList121.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList122.Text.ToString().Trim());
@@ -13680,7 +13953,12 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);  
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId4 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId4[0];
+            string setid1 = (string)SetId4[1];
+            string setid2 = (string)SetId4[2];
+            string setid3 = (string)SetId4[3];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings39";
@@ -13688,7 +13966,10 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
+            command.Parameters.AddWithValue("@setid2", setid2);
+            command.Parameters.AddWithValue("@setid3", setid3);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList125.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist1b", RadioButtonList126.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList127.Text.ToString().Trim());
@@ -13726,7 +14007,12 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);  
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId4 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId4[0];
+            string setid1 = (string)SetId4[1];
+            string setid2 = (string)SetId4[2];
+            string setid3 = (string)SetId4[3];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings40";
@@ -13734,7 +14020,10 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
+            command.Parameters.AddWithValue("@setid2", setid2);
+            command.Parameters.AddWithValue("@setid3", setid3);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList131.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist1b", RadioButtonList132.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList133.Text.ToString().Trim());
@@ -13771,7 +14060,12 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);   
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId4 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId4[0];
+            string setid1 = (string)SetId4[1];
+            string setid2 = (string)SetId4[2];
+            string setid3 = (string)SetId4[3];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings41";
@@ -13779,7 +14073,10 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
+            command.Parameters.AddWithValue("@setid2", setid2);
+            command.Parameters.AddWithValue("@setid3", setid3);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList136.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist1b", RadioButtonList137.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList138.Text.ToString().Trim());
@@ -13818,7 +14115,12 @@ namespace FirstImpressions
         {
             string str = getConnectionString();
             string UserId = Session["UserId"].ToString();
-            int pictureid = Convert.ToInt32(Session["PictureId"]);  
+            int pictureid = Convert.ToInt32(Session["PictureId"]);
+            ArrayList SetId4 = (ArrayList)Session["SetId"];
+            string setid = (string)SetId4[0];
+            string setid1 = (string)SetId4[1];
+            string setid2 = (string)SetId4[2];
+            string setid3 = (string)SetId4[3];
             SqlConnection con = new SqlConnection(str);
             con.Open();
             string teststr = "spInsertBeautyRatings42";
@@ -13826,7 +14128,10 @@ namespace FirstImpressions
             command.CommandType = CommandType.StoredProcedure;
 
             command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-            command.Parameters.AddWithValue("@pictureid", pictureid);
+            command.Parameters.AddWithValue("@setid", setid);
+            command.Parameters.AddWithValue("@setid1", setid1);
+            command.Parameters.AddWithValue("@setid2", setid2);
+            command.Parameters.AddWithValue("@setid3", setid3);
             command.Parameters.AddWithValue("@beautylist1a", RadioButtonList143.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist1b", RadioButtonList144.Text.ToString().Trim());
             command.Parameters.AddWithValue("@beautylist2a", RadioButtonList145.Text.ToString().Trim());

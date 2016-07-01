@@ -5320,7 +5320,9 @@ namespace FirstImpressions
     {
       string str = getConnectionString();
       string UserId = Session["UserId"].ToString();
-      int pictureid = Convert.ToInt32(Session["PictureId"]);    
+      int pictureid = Convert.ToInt32(Session["PictureId"]);
+      ArrayList SetId1 = (ArrayList)Session["SetId"];
+      string setid = (string)SetId1[0];
       SqlConnection con = new SqlConnection(str);
       con.Open();
       string teststr = "spInsertTrustRatings1";
@@ -5328,7 +5330,7 @@ namespace FirstImpressions
       command.CommandType = CommandType.StoredProcedure;
 
       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
-      command.Parameters.AddWithValue("@pictureid", pictureid);
+      command.Parameters.AddWithValue("@setid", setid);
       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList1.Text.ToString().Trim());
       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList2.Text.ToString().Trim());
       int result = command.ExecuteNonQuery();
@@ -5356,6 +5358,147 @@ namespace FirstImpressions
           Response.Redirect("StudyPage1.aspx");    
        }
      }
+
+   protected void btnSubmit2_Click(object sender, EventArgs e)
+   {
+       string str = getConnectionString();
+       string UserId = Session["UserId"].ToString();
+       int pictureid = Convert.ToInt32(Session["PictureId"]);
+       ArrayList SetId2 = (ArrayList)Session["SetId"];
+       string setid = (string)SetId2[0];
+       string setid1 = (string)SetId2[1];
+       SqlConnection con = new SqlConnection(str);
+       con.Open();
+       string teststr = "spInsertTrustRatings2";
+       SqlCommand command = new SqlCommand(teststr, con);
+       command.CommandType = CommandType.StoredProcedure;
+
+       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
+       command.Parameters.AddWithValue("@setid", setid);
+       command.Parameters.AddWithValue("@setid1", setid1);
+       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList1.Text.ToString().Trim());
+       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList2.Text.ToString().Trim());
+       int result = command.ExecuteNonQuery();
+       if (result == 1)
+       {
+           command.Dispose();
+           con.Close();
+           SqlConnection con45 = new SqlConnection(str);
+           con45.Open();
+           string teststr45 = "spUpdatePhotoCompletion1";
+           SqlCommand command45 = new SqlCommand(teststr45, con45);
+           command45.CommandType = CommandType.StoredProcedure;
+           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
+           command45.Parameters.AddWithValue("@pictureid", pictureid);
+           int result1 = command45.ExecuteNonQuery();
+           if (result1 == 1)
+           {
+               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
+
+           }
+
+           command45.Dispose();
+           con45.Close();
+           Session["Counter"] = 1;
+           Response.Redirect("StudyPage1.aspx");
+       }
+   }
+
+   protected void btnSubmit3_Click(object sender, EventArgs e)
+   {
+       string str = getConnectionString();
+       string UserId = Session["UserId"].ToString();
+       int pictureid = Convert.ToInt32(Session["PictureId"]);
+       ArrayList SetId3 = (ArrayList)Session["SetId"];
+       string setid = (string)SetId3[0];
+       string setid1 = (string)SetId3[1];
+       string setid2 = (string)SetId3[2];
+       SqlConnection con = new SqlConnection(str);
+       con.Open();
+       string teststr = "spInsertTrustRatings3";
+       SqlCommand command = new SqlCommand(teststr, con);
+       command.CommandType = CommandType.StoredProcedure;
+
+       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
+       command.Parameters.AddWithValue("@setid", setid);
+       command.Parameters.AddWithValue("@setid1", setid1);
+       command.Parameters.AddWithValue("@setid2", setid2);
+       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList1.Text.ToString().Trim());
+       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList2.Text.ToString().Trim());
+       int result = command.ExecuteNonQuery();
+       if (result == 1)
+       {
+           command.Dispose();
+           con.Close();
+           SqlConnection con45 = new SqlConnection(str);
+           con45.Open();
+           string teststr45 = "spUpdatePhotoCompletion1";
+           SqlCommand command45 = new SqlCommand(teststr45, con45);
+           command45.CommandType = CommandType.StoredProcedure;
+           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
+           command45.Parameters.AddWithValue("@pictureid", pictureid);
+           int result1 = command45.ExecuteNonQuery();
+           if (result1 == 1)
+           {
+               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
+
+           }
+
+           command45.Dispose();
+           con45.Close();
+           Session["Counter"] = 1;
+           Response.Redirect("StudyPage1.aspx");
+       }
+   }
+
+   protected void btnSubmit4_Click(object sender, EventArgs e)
+   {
+       string str = getConnectionString();
+       string UserId = Session["UserId"].ToString();
+       int pictureid = Convert.ToInt32(Session["PictureId"]);
+       ArrayList SetId4 = (ArrayList)Session["SetId"];
+       string setid = (string)SetId4[0];
+       string setid1 = (string)SetId4[1];
+       string setid2 = (string)SetId4[2];
+       string setid3 = (string)SetId4[3];
+       SqlConnection con = new SqlConnection(str);
+       con.Open();
+       string teststr = "spInsertTrustRatings4";
+       SqlCommand command = new SqlCommand(teststr, con);
+       command.CommandType = CommandType.StoredProcedure;
+
+       command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
+       command.Parameters.AddWithValue("@setid", setid);
+       command.Parameters.AddWithValue("@setid1", setid1);
+       command.Parameters.AddWithValue("@setid2", setid2);
+       command.Parameters.AddWithValue("@setid3", setid3);
+       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList1.Text.ToString().Trim());
+       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList2.Text.ToString().Trim());
+       int result = command.ExecuteNonQuery();
+       if (result == 1)
+       {
+           command.Dispose();
+           con.Close();
+           SqlConnection con45 = new SqlConnection(str);
+           con45.Open();
+           string teststr45 = "spUpdatePhotoCompletion1";
+           SqlCommand command45 = new SqlCommand(teststr45, con45);
+           command45.CommandType = CommandType.StoredProcedure;
+           command45.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
+           command45.Parameters.AddWithValue("@pictureid", pictureid);
+           int result1 = command45.ExecuteNonQuery();
+           if (result1 == 1)
+           {
+               // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
+
+           }
+
+           command45.Dispose();
+           con45.Close();
+           Session["Counter"] = 1;
+           Response.Redirect("StudyPage1.aspx");
+       }
+   }
 
    }
 }
