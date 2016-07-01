@@ -8,6 +8,27 @@
 }
 </script>
 
+<script type="text/javascript">
+    function initSubmit2() {
+        document.getElementById('<%=Submit2.ClientID%>').style.visibility = 'hidden';
+        setTimeout("document.getElementById('<%=Submit2.ClientID%>').style.visibility = 'visible'", 2 * 5000);
+    }
+</script>
+
+<script type="text/javascript">
+    function initSubmit3() {
+        document.getElementById('<%=Submit3.ClientID%>').style.visibility = 'hidden';
+        setTimeout("document.getElementById('<%=Submit3.ClientID%>').style.visibility = 'visible'", 3 * 5000);
+    }
+</script>
+
+<script type="text/javascript">
+    function initSubmit4() {
+        document.getElementById('<%=Submit4.ClientID%>').style.visibility = 'hidden';
+        setTimeout("document.getElementById('<%=Submit4.ClientID%>').style.visibility = 'visible'", 4 * 5000);
+    }
+</script>
+
 <br /> <br /> 
 <div id="header" runat="server">
 <asp:Image ID="Image1" runat="server" style="margin-left: 300px"/>
@@ -75,6 +96,132 @@ How likely do you think it is that if lent $1,000 at a 10% interest rate by a ba
 
 <div class="col-md-offset-5 col-md-10">
  <asp:Button runat="server" OnClick="btnSubmit1_Click" ID="Submit1" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+</div>
+
+</div>
+
+<div id="condition2" runat="server">
+
+Based on the picture/pictures above, what is your impression of the <b>trustworthiness</b> of the person that has posted them? <br /> <br />
+                                                                                                                                         
+<asp:RadioButtonList ID="RadioButtonList3" runat="server" RepeatDirection="Horizontal" RepeatLayout="Table">
+<asp:ListItem Text="Extremely trustworthy" Value="7"></asp:ListItem>
+<asp:ListItem Text="Very trustworthy" Value="6"></asp:ListItem>
+<asp:ListItem Text="Above average" Value="5"></asp:ListItem>
+<asp:ListItem Text="Neutral" Value="4"></asp:ListItem>
+<asp:ListItem Text="Below average" Value="3"></asp:ListItem>
+<asp:ListItem Text="Not trustworthy" Value="2"></asp:ListItem>
+<asp:ListItem Text="Not trustworthy at all" Value="1"></asp:ListItem> 
+</asp:RadioButtonList>  <br /> 
+<asp:RequiredFieldValidator runat="server" ControlToValidate="RadioButtonList1"
+ CssClass="text-danger" ErrorMessage="Please select one option." />
+
+<br /> <br />
+ 
+Based on the picture/pictures above, what is your impression of the <b>creditworthiness</b> of the person that has posted them? <br />
+How likely do you think it is that if lent $1,000 at a 10% interest rate by a bank, he or she would pay back the amount in full? <br /> <br />
+ 
+                                                                                                                                                             
+<asp:RadioButtonList ID="RadioButtonList4" runat="server" RepeatDirection="Horizontal" RepeatLayout="Table">
+<asp:ListItem Text="Extremely creditworthy" Value="7"></asp:ListItem>
+<asp:ListItem Text="Very creditworthy" Value="6"></asp:ListItem>
+<asp:ListItem Text="Above average" Value="5"></asp:ListItem>
+<asp:ListItem Text="Neutral" Value="4"></asp:ListItem>
+<asp:ListItem Text="Below average" Value="3"></asp:ListItem>
+<asp:ListItem Text="Not creditworthy" Value="2"></asp:ListItem>
+<asp:ListItem Text="Not creditworthy at all" Value="1"></asp:ListItem> 
+</asp:RadioButtonList>  <br /> 
+<asp:RequiredFieldValidator runat="server" ControlToValidate="RadioButtonList2"
+ CssClass="text-danger" ErrorMessage="Please select one option." />
+
+<br /> <br />
+
+<div class="col-md-offset-5 col-md-10">
+ <asp:Button runat="server" OnClick="btnSubmit2_Click" ID="Submit2" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+</div>
+
+</div>
+
+<div id="condition3" runat="server">
+
+Based on the picture/pictures above, what is your impression of the <b>trustworthiness</b> of the person that has posted them? <br /> <br />
+                                                                                                                                         
+<asp:RadioButtonList ID="RadioButtonList5" runat="server" RepeatDirection="Horizontal" RepeatLayout="Table">
+<asp:ListItem Text="Extremely trustworthy" Value="7"></asp:ListItem>
+<asp:ListItem Text="Very trustworthy" Value="6"></asp:ListItem>
+<asp:ListItem Text="Above average" Value="5"></asp:ListItem>
+<asp:ListItem Text="Neutral" Value="4"></asp:ListItem>
+<asp:ListItem Text="Below average" Value="3"></asp:ListItem>
+<asp:ListItem Text="Not trustworthy" Value="2"></asp:ListItem>
+<asp:ListItem Text="Not trustworthy at all" Value="1"></asp:ListItem> 
+</asp:RadioButtonList>  <br /> 
+<asp:RequiredFieldValidator runat="server" ControlToValidate="RadioButtonList1"
+ CssClass="text-danger" ErrorMessage="Please select one option." />
+
+<br /> <br />
+ 
+Based on the picture/pictures above, what is your impression of the <b>creditworthiness</b> of the person that has posted them? <br />
+How likely do you think it is that if lent $1,000 at a 10% interest rate by a bank, he or she would pay back the amount in full? <br /> <br />
+ 
+                                                                                                                                                             
+<asp:RadioButtonList ID="RadioButtonList6" runat="server" RepeatDirection="Horizontal" RepeatLayout="Table">
+<asp:ListItem Text="Extremely creditworthy" Value="7"></asp:ListItem>
+<asp:ListItem Text="Very creditworthy" Value="6"></asp:ListItem>
+<asp:ListItem Text="Above average" Value="5"></asp:ListItem>
+<asp:ListItem Text="Neutral" Value="4"></asp:ListItem>
+<asp:ListItem Text="Below average" Value="3"></asp:ListItem>
+<asp:ListItem Text="Not creditworthy" Value="2"></asp:ListItem>
+<asp:ListItem Text="Not creditworthy at all" Value="1"></asp:ListItem> 
+</asp:RadioButtonList>  <br /> 
+<asp:RequiredFieldValidator runat="server" ControlToValidate="RadioButtonList2"
+ CssClass="text-danger" ErrorMessage="Please select one option." />
+
+<br /> <br />
+
+<div class="col-md-offset-5 col-md-10">
+ <asp:Button runat="server" OnClick="btnSubmit3_Click" ID="Submit3" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+</div>
+
+</div>
+
+<div id="condition4" runat="server">
+
+Based on the picture/pictures above, what is your impression of the <b>trustworthiness</b> of the person that has posted them? <br /> <br />
+                                                                                                                                         
+<asp:RadioButtonList ID="RadioButtonList7" runat="server" RepeatDirection="Horizontal" RepeatLayout="Table">
+<asp:ListItem Text="Extremely trustworthy" Value="7"></asp:ListItem>
+<asp:ListItem Text="Very trustworthy" Value="6"></asp:ListItem>
+<asp:ListItem Text="Above average" Value="5"></asp:ListItem>
+<asp:ListItem Text="Neutral" Value="4"></asp:ListItem>
+<asp:ListItem Text="Below average" Value="3"></asp:ListItem>
+<asp:ListItem Text="Not trustworthy" Value="2"></asp:ListItem>
+<asp:ListItem Text="Not trustworthy at all" Value="1"></asp:ListItem> 
+</asp:RadioButtonList>  <br /> 
+<asp:RequiredFieldValidator runat="server" ControlToValidate="RadioButtonList1"
+ CssClass="text-danger" ErrorMessage="Please select one option." />
+
+<br /> <br />
+ 
+Based on the picture/pictures above, what is your impression of the <b>creditworthiness</b> of the person that has posted them? <br />
+How likely do you think it is that if lent $1,000 at a 10% interest rate by a bank, he or she would pay back the amount in full? <br /> <br />
+ 
+                                                                                                                                                             
+<asp:RadioButtonList ID="RadioButtonList8" runat="server" RepeatDirection="Horizontal" RepeatLayout="Table">
+<asp:ListItem Text="Extremely creditworthy" Value="7"></asp:ListItem>
+<asp:ListItem Text="Very creditworthy" Value="6"></asp:ListItem>
+<asp:ListItem Text="Above average" Value="5"></asp:ListItem>
+<asp:ListItem Text="Neutral" Value="4"></asp:ListItem>
+<asp:ListItem Text="Below average" Value="3"></asp:ListItem>
+<asp:ListItem Text="Not creditworthy" Value="2"></asp:ListItem>
+<asp:ListItem Text="Not creditworthy at all" Value="1"></asp:ListItem> 
+</asp:RadioButtonList>  <br /> 
+<asp:RequiredFieldValidator runat="server" ControlToValidate="RadioButtonList2"
+ CssClass="text-danger" ErrorMessage="Please select one option." />
+
+<br /> <br />
+
+<div class="col-md-offset-5 col-md-10">
+ <asp:Button runat="server" OnClick="btnSubmit4_Click" ID="Submit4" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
