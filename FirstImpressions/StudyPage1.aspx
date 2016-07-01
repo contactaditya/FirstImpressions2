@@ -322,12 +322,10 @@ function initSubmit1()
 <figure>
 <asp:Image ID="Image4" runat="server" style="margin-left: 0px"/> <br /> <br />
 <figcaption style ="text-align: center"> Picture 1 </figcaption>
-</figure>
-<figure>
+
 <asp:Image ID="Image5" runat="server" style="margin-left: 0px"/> <br /> <br />
 <figcaption style ="text-align: center"> Picture 2 </figcaption>
-</figure>
-<figure>
+
 <asp:Image ID="Image6" runat="server" style="margin-left: 0px"/> <br /> <br />
 <figcaption style ="text-align: center"> Picture 3 </figcaption>
 </figure>
