@@ -5,10 +5,9 @@
 function DisableBackButton() {
         window.history.forward()
     }
-    DisableBackButton();
-    window.onload = DisableBackButton;
-    window.onpageshow = function (evt) { if (evt.persisted) DisableBackButton() }
-    window.onunload = function () { void (0) }
+setTimeout("preventBack()", 0);
+window.onunload = function () { null };
+
 </script>
 
 <script type="text/javascript">    
