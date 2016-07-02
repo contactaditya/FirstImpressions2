@@ -2,11 +2,9 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
 <script type="text/javascript">
-function DisableBackButton() {
-        window.history.forward()
-    }
-setTimeout("DisableBackButton()", 0);
-window.onunload = function () { null };
+ window.location.hash="no-back-button";
+ window.location.hash="Again-No-back-button";//again because google chrome don't insert first hash into history
+ window.onhashchange=function(){window.location.hash="no-back-button";}
 </script>
 
 <script type="text/javascript">    
