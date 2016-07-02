@@ -18,9 +18,7 @@ namespace FirstImpressions
         {
             if (!Page.IsPostBack)
             {
-                Response.Cache.SetCacheability(HttpCacheability.NoCache);
-                Response.Cache.SetExpires(DateTime.Now.AddSeconds(-1));
-                Response.Cache.SetNoStore();
+                Page.Response.Cache.SetCacheability(HttpCacheability.NoCache);
                 if (Convert.ToInt32(Session["Counter"]) == 1)
                 {
                 string str = getConnectionString();
