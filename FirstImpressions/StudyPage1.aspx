@@ -2,8 +2,9 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
 <script type="text/javascript">
-    window.history.forward();
-    function noBack() { window.history.forward(); }
+    function preventBack(){window.history.forward();}
+    setTimeout("preventBack()", 0);
+    window.onunload=function(){null};
 </script>
 
 <script type="text/javascript">    
