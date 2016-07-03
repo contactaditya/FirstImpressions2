@@ -5924,8 +5924,33 @@ namespace FirstImpressions
 
           command45.Dispose();
           con45.Close();
-          Session["Counter"] = 1;
-          Response.Redirect("StudyPage1.aspx");    
+
+          SqlConnection con50 = new SqlConnection(str);
+          con50.Open();
+          string teststr50 = "spRandomPhoto1";
+          SqlCommand command50 = new SqlCommand(teststr50, con50);
+          command50.CommandType = CommandType.StoredProcedure;
+          command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
+          command50.Parameters.AddWithValue("@pictureid", pictureid);
+          int result2 = command50.ExecuteNonQuery();
+          if (result2 == 1)
+          {
+              command50.Dispose();
+              con50.Close();
+              Session["Counter"] = 1;
+              Response.Redirect("StudyPage2.aspx");
+          }
+          else
+          {
+              command50.Dispose();
+              con50.Close();
+              Random rnd = new Random();
+              string[] PageNames = { "StudyPage1.aspx", "StudyPage2.aspx" };
+
+              int pageIndex = rnd.Next(0, PageNames.Length);
+              Session["Counter"] = 1;
+              Response.Redirect(PageNames[pageIndex]);
+          }
        }
      }
 
@@ -5969,8 +5994,33 @@ namespace FirstImpressions
 
            command45.Dispose();
            con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");
+
+           SqlConnection con50 = new SqlConnection(str);
+           con50.Open();
+           string teststr50 = "spRandomPhoto1";
+           SqlCommand command50 = new SqlCommand(teststr50, con50);
+           command50.CommandType = CommandType.StoredProcedure;
+           command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
+           command50.Parameters.AddWithValue("@pictureid", pictureid);
+           int result2 = command50.ExecuteNonQuery();
+           if (result2 == 1)
+           {
+               command50.Dispose();
+               con50.Close();
+               Session["Counter"] = 1;
+               Response.Redirect("StudyPage2.aspx");
+           }
+           else
+           {
+               command50.Dispose();
+               con50.Close();
+               Random rnd = new Random();
+               string[] PageNames = { "StudyPage1.aspx", "StudyPage2.aspx" };
+
+               int pageIndex = rnd.Next(0, PageNames.Length);
+               Session["Counter"] = 1;
+               Response.Redirect(PageNames[pageIndex]);
+           }
        }
    }
 
@@ -6016,8 +6066,33 @@ namespace FirstImpressions
 
            command45.Dispose();
            con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");
+
+           SqlConnection con50 = new SqlConnection(str);
+           con50.Open();
+           string teststr50 = "spRandomPhoto1";
+           SqlCommand command50 = new SqlCommand(teststr50, con50);
+           command50.CommandType = CommandType.StoredProcedure;
+           command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
+           command50.Parameters.AddWithValue("@pictureid", pictureid);
+           int result2 = command50.ExecuteNonQuery();
+           if (result2 == 1)
+           {
+               command50.Dispose();
+               con50.Close();
+               Session["Counter"] = 1;
+               Response.Redirect("StudyPage2.aspx");
+           }
+           else
+           {
+               command50.Dispose();
+               con50.Close();
+               Random rnd = new Random();
+               string[] PageNames = { "StudyPage1.aspx", "StudyPage2.aspx" };
+
+               int pageIndex = rnd.Next(0, PageNames.Length);
+               Session["Counter"] = 1;
+               Response.Redirect(PageNames[pageIndex]);
+           }
        }
    }
 
@@ -6065,8 +6140,33 @@ namespace FirstImpressions
 
            command45.Dispose();
            con45.Close();
-           Session["Counter"] = 1;
-           Response.Redirect("StudyPage1.aspx");
+
+           SqlConnection con50 = new SqlConnection(str);
+           con50.Open();
+           string teststr50 = "spRandomPhoto1";
+           SqlCommand command50 = new SqlCommand(teststr50, con50);
+           command50.CommandType = CommandType.StoredProcedure;
+           command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
+           command50.Parameters.AddWithValue("@pictureid", pictureid);
+           int result2 = command50.ExecuteNonQuery();
+           if (result2 == 1)
+           {
+               command50.Dispose();
+               con50.Close();
+               Session["Counter"] = 1;
+               Response.Redirect("StudyPage2.aspx");
+           }
+           else
+           {
+               command50.Dispose();
+               con50.Close();
+               Random rnd = new Random();
+               string[] PageNames = { "StudyPage1.aspx", "StudyPage2.aspx" };
+
+               int pageIndex = rnd.Next(0, PageNames.Length);
+               Session["Counter"] = 1;
+               Response.Redirect(PageNames[pageIndex]);
+           }
        }
    }
 
