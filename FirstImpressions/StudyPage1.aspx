@@ -1,6 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="StudyPage1.aspx.cs" Inherits="FirstImpressions.StudyPage1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <script type="text/javascript">    
 function initSubmit1()
 	{
@@ -299,8 +301,8 @@ function initSubmit1()
 <br /> <br /> 
 
 <div id="header" runat="server">
-<div style ="text-align: center; display: inline-block; margin-left: 25px">
-<asp:Image ID="Image1" runat="server" style="margin-left: 300px;max-width: 900px;max-height: 300px"/> 
+<div style ="text-align: center; display: inline-block">
+<asp:Image ID="Image1" runat="server" style="margin-left: 450px;max-width: 900px;max-height: 300px"/> 
 <p><br />Picture 1</p>
 </div>
 <hr style="border:1px solid black">
