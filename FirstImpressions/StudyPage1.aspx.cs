@@ -12165,8 +12165,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();       
@@ -12233,8 +12234,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -12301,8 +12303,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -12369,8 +12372,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -12439,8 +12443,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -12510,8 +12515,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -12580,8 +12586,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -12651,8 +12658,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -12721,8 +12729,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -12791,8 +12800,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -12862,8 +12872,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -12933,8 +12944,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -13004,8 +13016,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -13074,8 +13087,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -13145,8 +13159,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -13217,8 +13232,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -13289,8 +13305,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -13362,8 +13379,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -13437,8 +13455,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -13512,8 +13531,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -13586,8 +13606,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -13660,8 +13681,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -13735,8 +13757,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -13810,8 +13833,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -13884,8 +13908,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -13959,8 +13984,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -14033,8 +14059,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -14108,8 +14135,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -14184,8 +14212,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -14259,8 +14288,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -14335,8 +14365,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -14412,8 +14443,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -14489,8 +14521,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -14566,8 +14599,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -14644,8 +14678,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -14723,8 +14758,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -14801,8 +14837,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -14879,8 +14916,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -14958,8 +14996,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -15036,8 +15075,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -15116,8 +15156,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
@@ -15197,8 +15238,9 @@ namespace FirstImpressions
                 command50.CommandType = CommandType.StoredProcedure;
                 command50.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
                 command50.Parameters.AddWithValue("@pictureid", pictureid);
-                int result2 = command50.ExecuteNonQuery();
-                if (result2 == 1)
+                SqlDataReader dataReader2;
+                dataReader2 = command50.ExecuteReader();
+                if (dataReader2.HasRows)
                 {
                     command50.Dispose();
                     con50.Close();
