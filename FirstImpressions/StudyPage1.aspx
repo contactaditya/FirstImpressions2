@@ -300,11 +300,9 @@ function initSubmit1()
 
 <br /> <br /> 
 
-<div id="header" runat="server">
-<div style ="text-align: center; display: inline-block">
+<div id="header" runat="server" style="text-align: center; display: inline-block">
 <asp:Image ID="Image1" runat="server" style="margin-left: 450px;max-width: 900px;max-height: 300px"/> 
 <p><br />Picture 1</p>
-</div>
 <hr style="border:1px solid black">
 </div> 
 
