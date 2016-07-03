@@ -318,7 +318,7 @@ function initSubmit1()
 <hr style="border:1px solid black">
 </div> 
 
-<div id="header2" runat="server" style="white-space: nowrap;text-align: center">
+<div id="header2" runat="server" style="white-space: nowrap;text-align: center; float: left">
 <asp:Image ID="Image4" runat="server" style="margin-left: 0px;max-width: 350px;max-height: 300px"/> 
 <p>Picture 1</p>
 <asp:Image ID="Image5" runat="server" style="margin-left: 0px;max-width: 350px;max-height: 300px"/> 
