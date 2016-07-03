@@ -33,7 +33,7 @@
 
 <div id="header" runat="server" style="text-align: center">
 <div style ="display: inline-block">
-<asp:Image ID="Image1" runat="server" style="margin-left: 0px;max-width: 900px;max-height: 300px"/> 
+<asp:Image ID="Image1" runat="server" style="margin-left: 0px;max-width: 900px;max-height: 400px"/> 
 <p><br />Picture 1</p>
 </div>
 <hr style="border:1px solid black">
@@ -41,11 +41,11 @@
 
 <div id="header1" runat="server" style="white-space: nowrap">
 <div style ="text-align: center; display: inline-block; margin-left: 25px">
-<asp:Image ID="Image2" runat="server" style="margin-left: 0px;max-width: 400px;max-height: 300px"/>
+<asp:Image ID="Image2" runat="server" style="margin-left: 0px;max-width: 400px;max-height: 400px"/>
 <p><br />Picture 1</p>
 </div>
 <div style ="text-align: center; display: inline-block; margin-left: 25px">
-<asp:Image ID="Image3" runat="server" style="margin-left: 0px;max-width: 400px;max-height: 300px"/> 
+<asp:Image ID="Image3" runat="server" style="margin-left: 0px;max-width: 400px;max-height: 400px"/> 
 <p><br />Picture 2</p>
 </div>
 <hr style="border:1px solid black">
@@ -53,15 +53,15 @@
 
 <div id="header2" runat="server" style="white-space: nowrap">
 <div style ="text-align: center; display: inline-block; margin-left: 25px">
-<asp:Image ID="Image4" runat="server" style="margin-left: 0px;max-width: 350px;max-height: 300px"/> 
+<asp:Image ID="Image4" runat="server" style="margin-left: 0px;max-width: 350px;max-height: 400px"/> 
 <p><br />Picture 1</p>
 </div>
 <div style ="text-align: center; display: inline-block; margin-left: 25px">
-<asp:Image ID="Image5" runat="server" style="margin-left: 0px;max-width: 350px;max-height: 300px"/> 
+<asp:Image ID="Image5" runat="server" style="margin-left: 0px;max-width: 350px;max-height: 400px"/> 
 <p><br />Picture 2</p>
 </div>
 <div style ="text-align: center; display: inline-block; margin-left: 25px">
-<asp:Image ID="Image6" runat="server" style="margin-left: 0px;max-width: 350px;max-height: 300px"/> 
+<asp:Image ID="Image6" runat="server" style="margin-left: 0px;max-width: 350px;max-height: 400px"/> 
 <p><br />Picture 3</p>
 </div>
 <hr style="border:1px solid black">
