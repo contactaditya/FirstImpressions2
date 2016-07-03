@@ -336,22 +336,22 @@ function initSubmit1()
 
 <div id="header3" runat="server" style="white-space: nowrap">
 <div style ="text-align: center; display: inline-block; margin-left: 25px">
-<asp:Image ID="Image7" runat="server" style="margin-left: 0px; max-width: 350px;max-height: 300px"/> 
+<asp:Image ID="Image7" runat="server" style="margin-left: 0px; max-width: 250px;max-height: 300px"/> 
 <p><br />Picture 1</p>
 </div>
 
 <div style ="text-align: center; display: inline-block; margin-left: 25px">
-<asp:Image ID="Image8" runat="server" style="margin-left: 0px; max-width: 350px;max-height: 300px"/> 
+<asp:Image ID="Image8" runat="server" style="margin-left: 0px; max-width: 250px;max-height: 300px"/> 
 <p><br />Picture 2</p>
 </div>
 
 <div style ="text-align: center; display: inline-block; margin-left: 25px">
-<asp:Image ID="Image9" runat="server" style="margin-left: 0px; max-width: 350px;max-height: 300px"/> 
+<asp:Image ID="Image9" runat="server" style="margin-left: 0px; max-width: 250px;max-height: 300px"/> 
 <p><br />Picture 3</p>
 </div>
 
 <div style ="text-align: center; display: inline-block; margin-left: 25px">
-<asp:Image ID="Image10" runat="server" style="margin-left: 0px; max-width: 350px;max-height: 300px"/> 
+<asp:Image ID="Image10" runat="server" style="margin-left: 0px; max-width: 250px;max-height: 300px"/> 
 <p><br />Picture 4</p>
 </div>
 
