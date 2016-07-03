@@ -318,13 +318,13 @@ function initSubmit1()
 <hr style="border:1px solid black">
 </div> 
 
-<div id="header2" runat="server" style="white-space: nowrap">
-<asp:Image ID="Image4" runat="server" style="margin-left: 0px;max-width: 350px;max-height: 300px"/> <br />
-Picture 1
-<asp:Image ID="Image5" runat="server" style="margin-left: 0px;max-width: 350px;max-height: 300px"/> <br />
-Picture 2 
-<asp:Image ID="Image6" runat="server" style="margin-left: 0px;max-width: 350px;max-height: 300px"/> <br />
-Picture 3 
+<div id="header2" runat="server" style="white-space: nowrap;text-align: center">
+<asp:Image ID="Image4" runat="server" style="margin-left: 0px;max-width: 350px;max-height: 300px"/> 
+<p>Picture 1</p>
+<asp:Image ID="Image5" runat="server" style="margin-left: 0px;max-width: 350px;max-height: 300px"/> 
+<p>Picture 2</p>
+<asp:Image ID="Image6" runat="server" style="margin-left: 0px;max-width: 350px;max-height: 300px"/> 
+<p>Picture 3</p>
 <hr style="border:1px solid black">
 </div> 
 
