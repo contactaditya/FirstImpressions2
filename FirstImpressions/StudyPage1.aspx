@@ -319,11 +319,11 @@ function initSubmit1()
 </div> 
 
 <div id="header2" runat="server" style="white-space: nowrap">
-<asp:Image ID="Image4" runat="server" style="margin-left: 0px;max-width: 100%"/> 
+<asp:Image ID="Image4" runat="server" style="margin-left: 0px;max-width: 250px;max-height: 250px"/> 
 Picture 1
-<asp:Image ID="Image5" runat="server" style="margin-left: 0px;max-width: 100%"/> 
+<asp:Image ID="Image5" runat="server" style="margin-left: 0px;max-width: 250px;max-height: 250px"/> 
 Picture 2 
-<asp:Image ID="Image6" runat="server" style="margin-left: 0px;max-width: 100%"/> 
+<asp:Image ID="Image6" runat="server" style="margin-left: 0px;max-width: 250px;max-height: 250px"/> 
 Picture 3 
 <hr style="border:1px solid black">
 </div> 
