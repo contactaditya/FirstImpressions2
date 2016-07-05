@@ -4,21 +4,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <script type="text/javascript">
-    function DisableBackButton() {
-        window.history.forward()
+    function initSubmit1() {
+      document.getElementById('<%=Submit1.ClientID%>').style.visibility = 'hidden';
+      setTimeout("document.getElementById('<%=Submit1.ClientID%>').style.visibility = 'visible'", 1 * 5000);
     }
-    DisableBackButton();
-    window.onload = DisableBackButton;
-    window.onpageshow = function (evt) { if (evt.persisted) DisableBackButton() }
-    window.onunload = function () { location.reload(true); }
- </script>
-
-<script type="text/javascript">    
-function initSubmit1()
-	{
-        document.getElementById('<%=Submit1.ClientID%>').style.visibility = 'hidden';
-		setTimeout("document.getElementById('<%=Submit1.ClientID%>').style.visibility = 'visible'", 1 * 5000);		
-	}
 </script>
 
 <script type="text/javascript">
