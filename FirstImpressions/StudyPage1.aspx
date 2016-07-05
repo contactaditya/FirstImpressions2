@@ -3,6 +3,12 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<script type="text/javascript">
+    window.location.hash = "no-back-button";
+    window.location.hash = "Again-No-back-button";//again because google chrome don't insert first hash into history
+    window.onhashchange = function () { window.location.hash = "#"; }
+</script>
+
 <script type="text/javascript">    
 function initSubmit1()
 	{
