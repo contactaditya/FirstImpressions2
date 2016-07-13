@@ -5981,8 +5981,8 @@ namespace FirstImpressions
        command.Parameters.AddWithValue("@userid", Convert.ToInt32(UserId));
        command.Parameters.AddWithValue("@setid", setid);
        command.Parameters.AddWithValue("@setid1", setid1);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList1.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList2.Text.ToString().Trim());
+       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList3.Text.ToString().Trim());
+       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList4.Text.ToString().Trim());
        int result = command.ExecuteNonQuery();
        if (result == 1)
        {
@@ -6054,8 +6054,8 @@ namespace FirstImpressions
        command.Parameters.AddWithValue("@setid", setid);
        command.Parameters.AddWithValue("@setid1", setid1);
        command.Parameters.AddWithValue("@setid2", setid2);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList1.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList2.Text.ToString().Trim());
+       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList5.Text.ToString().Trim());
+       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList6.Text.ToString().Trim());
        int result = command.ExecuteNonQuery();
        if (result == 1)
        {
@@ -6129,8 +6129,8 @@ namespace FirstImpressions
        command.Parameters.AddWithValue("@setid1", setid1);
        command.Parameters.AddWithValue("@setid2", setid2);
        command.Parameters.AddWithValue("@setid3", setid3);
-       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList1.Text.ToString().Trim());
-       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList2.Text.ToString().Trim());
+       command.Parameters.AddWithValue("@trustlist1a", RadioButtonList7.Text.ToString().Trim());
+       command.Parameters.AddWithValue("@creditlist1a", RadioButtonList8.Text.ToString().Trim());
        int result = command.ExecuteNonQuery();
        if (result == 1)
        {

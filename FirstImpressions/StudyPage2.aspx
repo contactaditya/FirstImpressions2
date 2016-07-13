@@ -150,7 +150,7 @@ Based on the picture/pictures above, what is your impression of the <b>trustwort
 <asp:ListItem Text="Not trustworthy" Value="2"></asp:ListItem>
 <asp:ListItem Text="Not trustworthy at all" Value="1"></asp:ListItem> 
 </asp:RadioButtonList>  <br /> 
-<asp:RequiredFieldValidator runat="server" ControlToValidate="RadioButtonList1"
+<asp:RequiredFieldValidator runat="server" ControlToValidate="RadioButtonList3"
  CssClass="text-danger" ErrorMessage="Please select one option." />
 
 <br /> <br />
@@ -168,7 +168,7 @@ How likely do you think it is that if lent $1,000 at a 10% interest rate by a ba
 <asp:ListItem Text="Not creditworthy" Value="2"></asp:ListItem>
 <asp:ListItem Text="Not creditworthy at all" Value="1"></asp:ListItem> 
 </asp:RadioButtonList>  <br /> 
-<asp:RequiredFieldValidator runat="server" ControlToValidate="RadioButtonList2"
+<asp:RequiredFieldValidator runat="server" ControlToValidate="RadioButtonList4"
  CssClass="text-danger" ErrorMessage="Please select one option." />
 
 <br /> <br />
@@ -192,7 +192,7 @@ Based on the picture/pictures above, what is your impression of the <b>trustwort
 <asp:ListItem Text="Not trustworthy" Value="2"></asp:ListItem>
 <asp:ListItem Text="Not trustworthy at all" Value="1"></asp:ListItem> 
 </asp:RadioButtonList>  <br /> 
-<asp:RequiredFieldValidator runat="server" ControlToValidate="RadioButtonList1"
+<asp:RequiredFieldValidator runat="server" ControlToValidate="RadioButtonList5"
  CssClass="text-danger" ErrorMessage="Please select one option." />
 
 <br /> <br />
@@ -210,7 +210,7 @@ How likely do you think it is that if lent $1,000 at a 10% interest rate by a ba
 <asp:ListItem Text="Not creditworthy" Value="2"></asp:ListItem>
 <asp:ListItem Text="Not creditworthy at all" Value="1"></asp:ListItem> 
 </asp:RadioButtonList>  <br /> 
-<asp:RequiredFieldValidator runat="server" ControlToValidate="RadioButtonList2"
+<asp:RequiredFieldValidator runat="server" ControlToValidate="RadioButtonList6"
  CssClass="text-danger" ErrorMessage="Please select one option." />
 
 <br /> <br />
@@ -234,7 +234,7 @@ Based on the picture/pictures above, what is your impression of the <b>trustwort
 <asp:ListItem Text="Not trustworthy" Value="2"></asp:ListItem>
 <asp:ListItem Text="Not trustworthy at all" Value="1"></asp:ListItem> 
 </asp:RadioButtonList>  <br /> 
-<asp:RequiredFieldValidator runat="server" ControlToValidate="RadioButtonList1"
+<asp:RequiredFieldValidator runat="server" ControlToValidate="RadioButtonList7"
  CssClass="text-danger" ErrorMessage="Please select one option." />
 
 <br /> <br />
@@ -252,7 +252,7 @@ How likely do you think it is that if lent $1,000 at a 10% interest rate by a ba
 <asp:ListItem Text="Not creditworthy" Value="2"></asp:ListItem>
 <asp:ListItem Text="Not creditworthy at all" Value="1"></asp:ListItem> 
 </asp:RadioButtonList>  <br /> 
-<asp:RequiredFieldValidator runat="server" ControlToValidate="RadioButtonList2"
+<asp:RequiredFieldValidator runat="server" ControlToValidate="RadioButtonList8"
  CssClass="text-danger" ErrorMessage="Please select one option." />
 
 <br /> <br />
