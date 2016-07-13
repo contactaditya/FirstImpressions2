@@ -1513,19 +1513,28 @@ namespace FirstImpressions
                         command1.Parameters.AddWithValue("@userid", currentUserId);
                         SqlDataReader dataReader1;
                         dataReader1 = command1.ExecuteReader();
-                        while (dataReader1.Read())
+                        if (dataReader1.HasRows)
                         {
-                            Session["Count"] = dataReader1["Count"].ToString().Trim();
-                            Session["Condition"] = dataReader1["Condition"].ToString().Trim();
-                            Session["NumberofPictures"] = dataReader1["NumberofPictures"].ToString().Trim();
-                            Session["PictureName"] = dataReader1["PictureName"].ToString().Trim();
-                            Session["PictureId"] = dataReader1["PictureId"].ToString().Trim();
-                            Session["RaterSlot"] = dataReader1["RaterSlot"].ToString().Trim();
+                            while (dataReader1.Read())
+                            {
+                                Session["Count"] = dataReader1["Count"].ToString().Trim();
+                                Session["Condition"] = dataReader1["Condition"].ToString().Trim();
+                                Session["NumberofPictures"] = dataReader1["NumberofPictures"].ToString().Trim();
+                                Session["PictureName"] = dataReader1["PictureName"].ToString().Trim();
+                                Session["PictureId"] = dataReader1["PictureId"].ToString().Trim();
+                                Session["RaterSlot"] = dataReader1["RaterSlot"].ToString().Trim();
+                            }
+
+                            dataReader1.Close();
+                            command1.Dispose();
+                            con1.Close();
                         }
 
-                        dataReader1.Close();
-                        command1.Dispose();
-                        con1.Close();
+                        else
+                        {
+                            ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('You have successfully rated all the pictures. Your ratings have been successfully submitted.');location.href='ThankYou.aspx'", true);
+
+                        }
 
                         string pictureid = Session["PictureId"].ToString();
                         string raterslot = Session["RaterSlot"].ToString();
