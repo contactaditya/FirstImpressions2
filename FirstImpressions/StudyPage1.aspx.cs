@@ -6139,15 +6139,21 @@ namespace FirstImpressions
                         SetId.Add(Convert.ToString(dataReader2[3]));
                     }
 
-                }
-                Session["PictureName"] = PictureName;
-                Session["Count"] = Count;
-                Session["Condition"] = Condition;
-                Session["SetId"] = SetId;
+                    Session["PictureName"] = PictureName;
+                    Session["Count"] = Count;
+                    Session["Condition"] = Condition;
+                    Session["SetId"] = SetId;
 
-                dataReader2.Close();
-                command2.Dispose();
-                con2.Close();
+                    dataReader2.Close();
+                    command2.Dispose();
+                    con2.Close();
+                }
+
+                else
+                {
+                    ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('You have successfully rated all the pictures. Your ratings have been successfully submitted.');location.href='ThankYou.aspx'", true);
+
+                }
 
                 if (Convert.ToInt32(Session["NumberofPictures"]) == 1)
                 {
@@ -9148,15 +9154,21 @@ namespace FirstImpressions
                         SetId.Add(Convert.ToString(dataReader2[3]));
                     }
 
-                }
-                Session["PictureName"] = PictureName;
-                Session["Count"] = Count;
-                Session["Condition"] = Condition;
-                Session["SetId"] = SetId;
+                    Session["PictureName"] = PictureName;
+                    Session["Count"] = Count;
+                    Session["Condition"] = Condition;
+                    Session["SetId"] = SetId;
 
-                dataReader2.Close();
-                command2.Dispose();
-                con2.Close();
+                    dataReader2.Close();
+                    command2.Dispose();
+                    con2.Close();
+                }
+
+                else
+                {
+                    ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('You have successfully rated all the pictures. Your ratings have been successfully submitted.');location.href='ThankYou.aspx'", true);
+
+                }
 
                 if (Convert.ToInt32(Session["NumberofPictures"]) == 1)
                 {
