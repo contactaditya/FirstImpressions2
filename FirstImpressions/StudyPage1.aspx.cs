@@ -6151,7 +6151,7 @@ namespace FirstImpressions
 
                 else
                 {
-                    ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('You have successfully rated all the pictures. Your ratings have been successfully submitted.');location.href='ThankYou.aspx'", true);
+                    Response.Redirect("ThankYou.aspx");
 
                 }
 
@@ -9166,7 +9166,7 @@ namespace FirstImpressions
 
                 else
                 {
-                    ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('You have successfully rated all the pictures. Your ratings have been successfully submitted.');location.href='ThankYou.aspx'", true);
+                    Response.Redirect("ThankYou.aspx");
 
                 }
 
