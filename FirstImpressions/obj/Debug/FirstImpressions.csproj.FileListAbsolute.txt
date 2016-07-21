@@ -46,7 +46,6 @@ C:\Users\Aditya\documents\visual studio 2013\Projects\FirstImpressions\FirstImpr
 C:\Users\Aditya\documents\visual studio 2013\Projects\FirstImpressions\FirstImpressions\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Aditya\documents\visual studio 2013\Projects\FirstImpressions\FirstImpressions\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Aditya\documents\visual studio 2013\Projects\FirstImpressions\FirstImpressions\bin\Microsoft.Owin.Security.OAuth.xml
-C:\Users\Aditya\documents\visual studio 2013\Projects\FirstImpressions\FirstImpressions\obj\Debug\FirstImpressions.csprojResolveAssemblyReference.cache
 C:\Users\Aditya\documents\visual studio 2013\Projects\FirstImpressions\FirstImpressions\obj\Debug\FirstImpressions.dll
 C:\Users\Aditya\documents\visual studio 2013\Projects\FirstImpressions\FirstImpressions\obj\Debug\FirstImpressions.pdb
 C:\Users\Aditya\documents\visual studio 2013\Projects\FirstImpressions\FirstImpressions\bin\Pictures\1006993313.jpg
@@ -496,3 +495,6 @@ C:\Users\Aditya\documents\visual studio 2013\Projects\FirstImpressions\FirstImpr
 C:\Users\Aditya\documents\visual studio 2013\Projects\FirstImpressions\FirstImpressions\bin\Pictures\993412435.jpg
 C:\Users\Aditya\documents\visual studio 2013\Projects\FirstImpressions\FirstImpressions\obj\Debug\FirstImpressions.Properties.Resources.resources
 C:\Users\Aditya\documents\visual studio 2013\Projects\FirstImpressions\FirstImpressions\obj\Debug\FirstImpressions.csproj.GenerateResource.Cache
+C:\Users\Aditya\documents\visual studio 2013\Projects\FirstImpressions\FirstImpressions\bin\FirstImpressions.dll.CodeAnalysisLog.xml
+C:\Users\Aditya\documents\visual studio 2013\Projects\FirstImpressions\FirstImpressions\bin\FirstImpressions.dll.lastcodeanalysissucceeded
+C:\Users\Aditya\documents\visual studio 2013\Projects\FirstImpressions\FirstImpressions\obj\Debug\FirstImpressions.csprojResolveAssemblyReference.cache

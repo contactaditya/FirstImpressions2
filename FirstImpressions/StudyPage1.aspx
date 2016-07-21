@@ -380,7 +380,7 @@ How <b>attractive</b> is the person in <u>Picture</u> above? <br /> <br />
 <br /> <br />
  
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit1_Click" ID="Submit1" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit1_Click" ID="Submit1" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -405,7 +405,7 @@ How <b>attractive</b> is the adult in <u>Picture</u> above? <br /> <br />
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit2_Click" ID="Submit2" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit2_Click" ID="Submit2" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -428,7 +428,7 @@ How <b>attractive</b> is the adult in <u>Picture</u> above? <br /> <br />
  CssClass="text-danger" ErrorMessage="Please select one option." />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit3_Click" ID="Submit3" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit3_Click" ID="Submit3" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -471,7 +471,7 @@ Woman: <br /> <br />
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit4_Click" ID="Submit4" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit4_Click" ID="Submit4" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -511,7 +511,7 @@ How <b>attractive</b> is the person in <u>Picture2</u> above? <br /> <br />
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit5_Click" ID="Submit5" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit5_Click" ID="Submit5" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -552,7 +552,7 @@ How <b>attractive</b> is the adult in <u>Picture2</u> above? <br /> <br />
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit6_Click" ID="Submit6" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit6_Click" ID="Submit6" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -593,7 +593,7 @@ How <b>attractive</b> are on average the people in <u>Picture2</u> above? <br />
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit7_Click" ID="Submit7" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit7_Click" ID="Submit7" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -652,7 +652,7 @@ Woman: <br /> <br />
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit8_Click" ID="Submit8" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit8_Click" ID="Submit8" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -694,7 +694,7 @@ How <b>attractive</b> is the person in <u>Picture2</u> above? <br /> <br />
 <br /> <br />
  
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit9_Click" ID="Submit9" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit9_Click" ID="Submit9" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -736,7 +736,7 @@ How <b>attractive</b> is the adult in <u>Picture2</u> above? <br /> <br />
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit10_Click" ID="Submit10" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit10_Click" ID="Submit10" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -776,7 +776,7 @@ How <b>attractive</b> is the adult in <u>Picture1</u> above? <br /> <br />
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit11_Click" ID="Submit11" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit11_Click" ID="Submit11" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -834,7 +834,7 @@ Woman: <br /> <br />
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit12_Click" ID="Submit12" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit12_Click" ID="Submit12" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -875,7 +875,7 @@ How <b>attractive</b> is the person in <u>Picture2</u> above? <br /> <br />
 <br /> <br />
  
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit13_Click" ID="Submit13" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit13_Click" ID="Submit13" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -916,7 +916,7 @@ How <b>attractive</b> is the person in <u>Picture2</u> above? <br /> <br />
 <br /> <br />
  
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit14_Click" ID="Submit14" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit14_Click" ID="Submit14" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -974,7 +974,7 @@ Woman: <br /> <br />
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit15_Click" ID="Submit15" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit15_Click" ID="Submit15" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -1033,7 +1033,7 @@ How <b>attractive</b> is the person in <u>Picture2</u> above? <br /> <br />
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit16_Click" ID="Submit16" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit16_Click" ID="Submit16" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -1093,7 +1093,7 @@ How <b>attractive</b> are on average the people in <u>Picture2</u> above? <br />
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit17_Click" ID="Submit17" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit17_Click" ID="Submit17" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -1171,7 +1171,7 @@ Woman: <br /> <br />
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit18_Click" ID="Submit18" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit18_Click" ID="Submit18" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -1227,7 +1227,7 @@ How <b>attractive</b> is the person in <u>Picture3</u> above? <br /> <br />
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit19_Click" ID="Submit19" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit19_Click" ID="Submit19" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -1303,7 +1303,7 @@ Woman: <br /> <br />
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit20_Click" ID="Submit20" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit20_Click" ID="Submit20" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -1361,7 +1361,7 @@ How <b>attractive</b> is the person in <u>Picture3</u> above? <br /> <br />
  
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit21_Click" ID="Submit21" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit21_Click" ID="Submit21" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -1419,7 +1419,7 @@ How <b>attractive</b> is the person in <u>Picture3</u> above? <br /> <br />
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit22_Click" ID="Submit22" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit22_Click" ID="Submit22" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -1495,7 +1495,7 @@ How <b>attractive</b> is the person in <u>Picture3</u> above? <br /> <br />
   
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit23_Click" ID="Submit23" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit23_Click" ID="Submit23" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -1573,7 +1573,7 @@ How <b>attractive</b> are on average the people in <u>Picture3</u> above? <br />
   
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit24_Click" ID="Submit24" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit24_Click" ID="Submit24" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -1631,7 +1631,7 @@ How <b>attractive</b> is the person in <u>Picture3</u> above? <br /> <br />
 <br /> <br />
  
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit25_Click" ID="Submit25" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit25_Click" ID="Submit25" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -1708,7 +1708,7 @@ Woman: <br /> <br />
 <br /> <br />
  
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit26_Click" ID="Submit26" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit26_Click" ID="Submit26" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -1767,7 +1767,7 @@ How <b>attractive</b> is the person in <u>Picture3</u> above? <br /> <br />
 <br /> <br />
  
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit27_Click" ID="Submit27" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit27_Click" ID="Submit27" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -1842,7 +1842,7 @@ How <b>attractive</b> is the person in <u>Picture3</u> above? <br /> <br />
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit28_Click" ID="Submit28" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit28_Click" ID="Submit28" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -1938,7 +1938,7 @@ Woman: <br /> <br />
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit29_Click" ID="Submit29" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit29_Click" ID="Submit29" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -2015,7 +2015,7 @@ How <b>attractive</b> is the person in <u>Picture3</u> above? <br /> <br />
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit30_Click" ID="Submit30" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit30_Click" ID="Submit30" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -2112,7 +2112,7 @@ Woman: <br /> <br />
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit31_Click" ID="Submit31" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit31_Click" ID="Submit31" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -2227,7 +2227,7 @@ Woman: <br /> <br />
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit32_Click" ID="Submit32" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit32_Click" ID="Submit32" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -2299,7 +2299,7 @@ How <b>attractive</b> is the person in <u>Picture4</u> above? <br /> <br />
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit33_Click" ID="Submit33" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit33_Click" ID="Submit33" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -2372,7 +2372,7 @@ How <b>attractive</b> is the person in <u>Picture4</u> above? <br /> <br />
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit34_Click" ID="Submit34" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit34_Click" ID="Submit34" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -2464,7 +2464,7 @@ How <b>attractive</b> is the person in <u>Picture4</u> above? <br /> <br />
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit35_Click" ID="Submit35" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit35_Click" ID="Submit35" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -2574,7 +2574,7 @@ Woman: <br /> <br />
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit36_Click" ID="Submit36" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit36_Click" ID="Submit36" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -2665,7 +2665,7 @@ How <b>attractive</b> is the person in <u>Picture4</u> above? <br /> <br />
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit37_Click" ID="Submit37" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit37_Click" ID="Submit37" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -2757,7 +2757,7 @@ How <b>attractive</b> is the person in <u>Picture4</u> above? <br /> <br />
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit38_Click" ID="Submit38" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit38_Click" ID="Submit38" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -2870,7 +2870,7 @@ Woman: <br /> <br />
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit39_Click" ID="Submit39" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit39_Click" ID="Submit39" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -2962,7 +2962,7 @@ How <b>attractive</b> is the person in <u>Picture4</u> above? <br /> <br />
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit40_Click" ID="Submit40" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit40_Click" ID="Submit40" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -3093,7 +3093,7 @@ Woman: <br /> <br />
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit41_Click" ID="Submit41" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit41_Click" ID="Submit41" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -3244,7 +3244,7 @@ Woman: <br /> <br />
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit42_Click" ID="Submit42" Text="Submit" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit42_Click" ID="Submit42" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled='true';return true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
