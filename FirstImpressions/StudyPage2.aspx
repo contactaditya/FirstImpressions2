@@ -132,7 +132,7 @@ How likely do you think it is that if lent $1,000 at a 10% interest rate by a ba
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit1_Click" ID="Submit1" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled= true;return true;" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit1_Click" ID="Submit1" Text="Submit" UseSubmitBehavior="false" OnClientClick="if (!Page_ClientValidate()){ return false; } this.disabled = true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -174,7 +174,7 @@ How likely do you think it is that if lent $1,000 at a 10% interest rate by a ba
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit2_Click" ID="Submit2" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled= true; return true;" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit2_Click" ID="Submit2" Text="Submit" UseSubmitBehavior="false" OnClientClick="if (!Page_ClientValidate()){ return false; } this.disabled = true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -216,7 +216,7 @@ How likely do you think it is that if lent $1,000 at a 10% interest rate by a ba
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit3_Click" ID="Submit3" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled= true; return true;" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit3_Click" ID="Submit3" Text="Submit" UseSubmitBehavior="false" OnClientClick="if (!Page_ClientValidate()){ return false; } this.disabled = true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
@@ -258,7 +258,7 @@ How likely do you think it is that if lent $1,000 at a 10% interest rate by a ba
 <br /> <br />
 
 <div class="col-md-offset-5 col-md-10">
- <asp:Button runat="server" OnClick="btnSubmit4_Click" ID="Submit4" Text="Submit" UseSubmitBehavior="false" OnClientClick="this.disabled= true; return true;" CssClass="btn btn-default" /> <br /> <br />
+ <asp:Button runat="server" OnClick="btnSubmit4_Click" ID="Submit4" Text="Submit" UseSubmitBehavior="false" OnClientClick="if (!Page_ClientValidate()){ return false; } this.disabled = true;" CssClass="btn btn-default" /> <br /> <br />
 </div>
 
 </div>
