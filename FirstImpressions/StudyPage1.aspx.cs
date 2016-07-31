@@ -1009,7 +1009,7 @@ namespace FirstImpressions
                         con15.Close();
                     }
 
-                    if (conditions == 3 && conditions1 == 3)
+                    if (conditions == 3 && conditions1 == 2)
                     {
                         header.Visible = false;
                         header2.Visible = false;
@@ -1028,6 +1028,74 @@ namespace FirstImpressions
                         condition12.Visible = false;
                         condition13.Visible = false;
                         condition15.Visible = false;
+                        condition16.Visible = false;
+                        condition17.Visible = false;
+                        condition18.Visible = false;
+                        condition19.Visible = false;
+                        condition20.Visible = false;
+                        condition21.Visible = false;
+                        condition22.Visible = false;
+                        condition23.Visible = false;
+                        condition24.Visible = false;
+                        condition25.Visible = false;
+                        condition26.Visible = false;
+                        condition27.Visible = false;
+                        condition28.Visible = false;
+                        condition29.Visible = false;
+                        condition30.Visible = false;
+                        condition31.Visible = false;
+                        condition32.Visible = false;
+                        condition33.Visible = false;
+                        condition34.Visible = false;
+                        condition35.Visible = false;
+                        condition36.Visible = false;
+                        condition37.Visible = false;
+                        condition38.Visible = false;
+                        condition39.Visible = false;
+                        condition40.Visible = false;
+                        condition41.Visible = false;
+                        condition42.Visible = false;
+                        ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit13();</script>");
+
+                        SqlConnection con16 = new SqlConnection(str);
+                        con16.Open();
+                        string teststr16 = "spUpdatePhoto1";
+                        SqlCommand command16 = new SqlCommand(teststr16, con16);
+                        command16.CommandType = CommandType.StoredProcedure;
+                        command16.Parameters.AddWithValue("@picturename", picturename);
+                        command16.Parameters.AddWithValue("@picturename1", picturename1);
+                        command16.Parameters.AddWithValue("@userid", currentUserId);
+                        command16.Parameters.AddWithValue("@raterslot", raterslot);
+                        int result = command16.ExecuteNonQuery();
+                        if (result == 1)
+                        {
+                            // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
+
+                        }
+
+                        command16.Dispose();
+                        con16.Close();
+                    }
+
+                    if (conditions == 3 && conditions1 == 3)
+                    {
+                        header.Visible = false;
+                        header2.Visible = false;
+                        header3.Visible = false;
+                        condition1.Visible = false;
+                        condition2.Visible = false;
+                        condition3.Visible = false;
+                        condition4.Visible = false;
+                        condition5.Visible = false;
+                        condition6.Visible = false;
+                        condition7.Visible = false;
+                        condition8.Visible = false;
+                        condition9.Visible = false;
+                        condition10.Visible = false;
+                        condition11.Visible = false;
+                        condition12.Visible = false;
+                        condition13.Visible = false;
+                        condition14.Visible = false;
                         condition16.Visible = false;
                         condition17.Visible = false;
                         condition18.Visible = false;
@@ -1058,24 +1126,24 @@ namespace FirstImpressions
                         ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit14();</script>");
 
 
-                        SqlConnection con16 = new SqlConnection(str);
-                        con16.Open();
-                        string teststr16 = "spUpdatePhoto1";
-                        SqlCommand command16 = new SqlCommand(teststr16, con16);
-                        command16.CommandType = CommandType.StoredProcedure;
-                        command16.Parameters.AddWithValue("@picturename", picturename);
-                        command16.Parameters.AddWithValue("@picturename1", picturename1);
-                        command16.Parameters.AddWithValue("@userid", currentUserId);
-                        command16.Parameters.AddWithValue("@raterslot", raterslot);
-                        int result = command16.ExecuteNonQuery();
+                        SqlConnection con17 = new SqlConnection(str);
+                        con17.Open();
+                        string teststr17 = "spUpdatePhoto1";
+                        SqlCommand command17 = new SqlCommand(teststr17, con17);
+                        command17.CommandType = CommandType.StoredProcedure;
+                        command17.Parameters.AddWithValue("@picturename", picturename);
+                        command17.Parameters.AddWithValue("@picturename1", picturename1);
+                        command17.Parameters.AddWithValue("@userid", currentUserId);
+                        command17.Parameters.AddWithValue("@raterslot", raterslot);
+                        int result = command17.ExecuteNonQuery();
                         if (result == 1)
                         {
                             // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
 
                         }
 
-                        command16.Dispose();
-                        con16.Close();
+                        command17.Dispose();
+                        con17.Close();
                     }
 
                     if (conditions == 3 && conditions1 == 4)
@@ -1097,7 +1165,7 @@ namespace FirstImpressions
                         condition12.Visible = false;
                         condition13.Visible = false;
                         condition14.Visible = false;
-                        condition16.Visible = false;
+                        condition15.Visible = false;
                         condition17.Visible = false;
                         condition18.Visible = false;
                         condition19.Visible = false;
@@ -1126,25 +1194,24 @@ namespace FirstImpressions
                         condition42.Visible = false;
                         ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit15();</script>");
 
-
-                        SqlConnection con17 = new SqlConnection(str);
-                        con17.Open();
-                        string teststr17 = "spUpdatePhoto1";
-                        SqlCommand command17 = new SqlCommand(teststr17, con17);
-                        command17.CommandType = CommandType.StoredProcedure;
-                        command17.Parameters.AddWithValue("@picturename", picturename);
-                        command17.Parameters.AddWithValue("@picturename1", picturename1);
-                        command17.Parameters.AddWithValue("@userid", currentUserId);
-                        command17.Parameters.AddWithValue("@raterslot", raterslot);
-                        int result = command17.ExecuteNonQuery();
+                        SqlConnection con18 = new SqlConnection(str);
+                        con18.Open();
+                        string teststr18 = "spUpdatePhoto1";
+                        SqlCommand command18 = new SqlCommand(teststr18, con18);
+                        command18.CommandType = CommandType.StoredProcedure;
+                        command18.Parameters.AddWithValue("@picturename", picturename);
+                        command18.Parameters.AddWithValue("@picturename1", picturename1);
+                        command18.Parameters.AddWithValue("@userid", currentUserId);
+                        command18.Parameters.AddWithValue("@raterslot", raterslot);
+                        int result = command18.ExecuteNonQuery();
                         if (result == 1)
                         {
                             // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
 
                         }
 
-                        command17.Dispose();
-                        con17.Close();
+                        command18.Dispose();
+                        con18.Close();
                     }
 
                     if (conditions == 4 && conditions1 == 1)
@@ -1167,7 +1234,7 @@ namespace FirstImpressions
                         condition13.Visible = false;
                         condition14.Visible = false;
                         condition15.Visible = false;
-                        condition17.Visible = false;
+                        condition16.Visible = false;
                         condition18.Visible = false;
                         condition19.Visible = false;
                         condition20.Visible = false;
@@ -1195,75 +1262,6 @@ namespace FirstImpressions
                         condition42.Visible = false;
                         ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit16();</script>");
 
-                        SqlConnection con18 = new SqlConnection(str);
-                        con18.Open();
-                        string teststr18 = "spUpdatePhoto1";
-                        SqlCommand command18 = new SqlCommand(teststr18, con18);
-                        command18.CommandType = CommandType.StoredProcedure;
-                        command18.Parameters.AddWithValue("@picturename", picturename);
-                        command18.Parameters.AddWithValue("@picturename1", picturename1);
-                        command18.Parameters.AddWithValue("@userid", currentUserId);
-                        command18.Parameters.AddWithValue("@raterslot", raterslot);
-                        int result = command18.ExecuteNonQuery();
-                        if (result == 1)
-                        {
-                            // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
-
-                        }
-
-                        command18.Dispose();
-                        con18.Close();
-                    }
-
-                    if (conditions == 4 && conditions1 == 3)
-                    {
-                        header.Visible = false;
-                        header2.Visible = false;
-                        header3.Visible = false;
-                        condition1.Visible = false;
-                        condition2.Visible = false;
-                        condition3.Visible = false;
-                        condition4.Visible = false;
-                        condition5.Visible = false;
-                        condition6.Visible = false;
-                        condition7.Visible = false;
-                        condition8.Visible = false;
-                        condition9.Visible = false;
-                        condition10.Visible = false;
-                        condition11.Visible = false;
-                        condition12.Visible = false;
-                        condition13.Visible = false;
-                        condition14.Visible = false;
-                        condition15.Visible = false;
-                        condition16.Visible = false;
-                        condition18.Visible = false;
-                        condition19.Visible = false;
-                        condition20.Visible = false;
-                        condition21.Visible = false;
-                        condition22.Visible = false;
-                        condition23.Visible = false;
-                        condition24.Visible = false;
-                        condition25.Visible = false;
-                        condition26.Visible = false;
-                        condition27.Visible = false;
-                        condition28.Visible = false;
-                        condition29.Visible = false;
-                        condition30.Visible = false;
-                        condition31.Visible = false;
-                        condition32.Visible = false;
-                        condition33.Visible = false;
-                        condition34.Visible = false;
-                        condition35.Visible = false;
-                        condition36.Visible = false;
-                        condition37.Visible = false;
-                        condition38.Visible = false;
-                        condition39.Visible = false;
-                        condition40.Visible = false;
-                        condition41.Visible = false;
-                        condition42.Visible = false;
-                        ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit17();</script>");
-
-
                         SqlConnection con19 = new SqlConnection(str);
                         con19.Open();
                         string teststr19 = "spUpdatePhoto1";
@@ -1284,7 +1282,7 @@ namespace FirstImpressions
                         con19.Close();
                     }
 
-                    if (conditions == 4 && conditions1 == 4)
+                    if (conditions == 4 && conditions1 == 2)
                     {
                         header.Visible = false;
                         header2.Visible = false;
@@ -1330,8 +1328,7 @@ namespace FirstImpressions
                         condition40.Visible = false;
                         condition41.Visible = false;
                         condition42.Visible = false;
-                        ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit18();</script>");
-
+                        ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit16();</script>");
 
                         SqlConnection con20 = new SqlConnection(str);
                         con20.Open();
@@ -1351,6 +1348,144 @@ namespace FirstImpressions
 
                         command20.Dispose();
                         con20.Close();
+                    }
+
+                    if (conditions == 4 && conditions1 == 3)
+                    {
+                        header.Visible = false;
+                        header2.Visible = false;
+                        header3.Visible = false;
+                        condition1.Visible = false;
+                        condition2.Visible = false;
+                        condition3.Visible = false;
+                        condition4.Visible = false;
+                        condition5.Visible = false;
+                        condition6.Visible = false;
+                        condition7.Visible = false;
+                        condition8.Visible = false;
+                        condition9.Visible = false;
+                        condition10.Visible = false;
+                        condition11.Visible = false;
+                        condition12.Visible = false;
+                        condition13.Visible = false;
+                        condition14.Visible = false;
+                        condition15.Visible = false;
+                        condition16.Visible = false;
+                        condition17.Visible = false;
+                        condition18.Visible = false;
+                        condition20.Visible = false;
+                        condition21.Visible = false;
+                        condition22.Visible = false;
+                        condition23.Visible = false;
+                        condition24.Visible = false;
+                        condition25.Visible = false;
+                        condition26.Visible = false;
+                        condition27.Visible = false;
+                        condition28.Visible = false;
+                        condition29.Visible = false;
+                        condition30.Visible = false;
+                        condition31.Visible = false;
+                        condition32.Visible = false;
+                        condition33.Visible = false;
+                        condition34.Visible = false;
+                        condition35.Visible = false;
+                        condition36.Visible = false;
+                        condition37.Visible = false;
+                        condition38.Visible = false;
+                        condition39.Visible = false;
+                        condition40.Visible = false;
+                        condition41.Visible = false;
+                        condition42.Visible = false;
+                        ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit17();</script>");
+
+
+                        SqlConnection con21 = new SqlConnection(str);
+                        con21.Open();
+                        string teststr21 = "spUpdatePhoto1";
+                        SqlCommand command21 = new SqlCommand(teststr21, con21);
+                        command21.CommandType = CommandType.StoredProcedure;
+                        command21.Parameters.AddWithValue("@picturename", picturename);
+                        command21.Parameters.AddWithValue("@picturename1", picturename1);
+                        command21.Parameters.AddWithValue("@userid", currentUserId);
+                        command21.Parameters.AddWithValue("@raterslot", raterslot);
+                        int result = command21.ExecuteNonQuery();
+                        if (result == 1)
+                        {
+                            // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
+
+                        }
+
+                        command21.Dispose();
+                        con21.Close();
+                    }
+
+                    if (conditions == 4 && conditions1 == 4)
+                    {
+                        header.Visible = false;
+                        header2.Visible = false;
+                        header3.Visible = false;
+                        condition1.Visible = false;
+                        condition2.Visible = false;
+                        condition3.Visible = false;
+                        condition4.Visible = false;
+                        condition5.Visible = false;
+                        condition6.Visible = false;
+                        condition7.Visible = false;
+                        condition8.Visible = false;
+                        condition9.Visible = false;
+                        condition10.Visible = false;
+                        condition11.Visible = false;
+                        condition12.Visible = false;
+                        condition13.Visible = false;
+                        condition14.Visible = false;
+                        condition15.Visible = false;
+                        condition16.Visible = false;
+                        condition17.Visible = false;
+                        condition18.Visible = false;
+                        condition19.Visible = false;
+                        condition21.Visible = false;
+                        condition22.Visible = false;
+                        condition23.Visible = false;
+                        condition24.Visible = false;
+                        condition25.Visible = false;
+                        condition26.Visible = false;
+                        condition27.Visible = false;
+                        condition28.Visible = false;
+                        condition29.Visible = false;
+                        condition30.Visible = false;
+                        condition31.Visible = false;
+                        condition32.Visible = false;
+                        condition33.Visible = false;
+                        condition34.Visible = false;
+                        condition35.Visible = false;
+                        condition36.Visible = false;
+                        condition37.Visible = false;
+                        condition38.Visible = false;
+                        condition39.Visible = false;
+                        condition40.Visible = false;
+                        condition41.Visible = false;
+                        condition42.Visible = false;
+                        ClientScript.RegisterStartupScript(this.GetType(), "Script1", "<script type='text/javascript'>initSubmit18();</script>");
+
+
+                        SqlConnection con22 = new SqlConnection(str);
+                        con22.Open();
+                        string teststr22 = "spUpdatePhoto1";
+                        SqlCommand command22 = new SqlCommand(teststr22, con22);
+                        command22.CommandType = CommandType.StoredProcedure;
+                        command22.Parameters.AddWithValue("@picturename", picturename);
+                        command22.Parameters.AddWithValue("@picturename1", picturename1);
+                        command22.Parameters.AddWithValue("@userid", currentUserId);
+                        command22.Parameters.AddWithValue("@raterslot", raterslot);
+                        int result = command22.ExecuteNonQuery();
+                        if (result == 1)
+                        {
+                            // ScriptManager.RegisterStartupScript(this, GetType(), "showAlert", "alert('Data Updated Succesfully')", true);
+
+                        }
+
+                        command22.Dispose();
+                        con22.Close();
                     }
                 }
 
