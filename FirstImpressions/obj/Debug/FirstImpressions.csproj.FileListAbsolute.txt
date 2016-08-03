@@ -498,3 +498,8 @@ C:\Users\Aditya\documents\visual studio 2013\Projects\FirstImpressions\FirstImpr
 C:\Users\Aditya\documents\visual studio 2013\Projects\FirstImpressions\FirstImpressions\bin\FirstImpressions.dll.CodeAnalysisLog.xml
 C:\Users\Aditya\documents\visual studio 2013\Projects\FirstImpressions\FirstImpressions\bin\FirstImpressions.dll.lastcodeanalysissucceeded
 C:\Users\Aditya\documents\visual studio 2013\Projects\FirstImpressions\FirstImpressions\obj\Debug\FirstImpressions.csprojResolveAssemblyReference.cache
+C:\Users\Aditya\Documents\Visual Studio 2013\Projects\FirstImpressions2\FirstImpressions\obj\Debug\FirstImpressions.csprojResolveAssemblyReference.cache
+C:\Users\Aditya\Documents\Visual Studio 2013\Projects\FirstImpressions2\FirstImpressions\obj\Debug\FirstImpressions.Properties.Resources.resources
+C:\Users\Aditya\Documents\Visual Studio 2013\Projects\FirstImpressions2\FirstImpressions\obj\Debug\FirstImpressions.csproj.GenerateResource.Cache
+C:\Users\Aditya\Documents\Visual Studio 2013\Projects\FirstImpressions2\FirstImpressions\obj\Debug\FirstImpressions.dll
+C:\Users\Aditya\Documents\Visual Studio 2013\Projects\FirstImpressions2\FirstImpressions\obj\Debug\FirstImpressions.pdb

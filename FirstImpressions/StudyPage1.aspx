@@ -2909,8 +2909,10 @@ How <b>attractive</b> is the person in <u>Picture2</u> above? <br /> <br />
                                                                                               
 <br /> <br />
 
-How <b>attractive</b> are on average the people in <u>Picture3</u> above? <br /> <br />
-
+How <b>attractive</b> are the man and woman in <u>Picture3</u> above? <br /> <br />
+ 
+Man: <br /> <br /> 
+                                                                                                                                                             
 <asp:RadioButtonList ID="RadioButtonList94" runat="server" RepeatDirection="Horizontal" RepeatLayout="Table">
 <asp:ListItem Text="Extremely attractive" Value="7"></asp:ListItem>
 <asp:ListItem Text="Very attractive for age" Value="6"></asp:ListItem>
@@ -2920,7 +2922,24 @@ How <b>attractive</b> are on average the people in <u>Picture3</u> above? <br />
 <asp:ListItem Text="Not attractive for age" Value="2"></asp:ListItem>
 <asp:ListItem Text="Not attractive at all" Value="1"></asp:ListItem> 
 </asp:RadioButtonList>  <br /> 
+
  <asp:RequiredFieldValidator runat="server" ControlToValidate="RadioButtonList94"
+ CssClass="text-danger" ErrorMessage="Please select one option." />
+ 
+<br /> <br />
+Woman: <br /> <br /> 
+                                                                                                                                                             
+<asp:RadioButtonList ID="RadioButtonList599" runat="server" RepeatDirection="Horizontal" RepeatLayout="Table">
+<asp:ListItem Text="Extremely attractive" Value="7"></asp:ListItem>
+<asp:ListItem Text="Very attractive for age" Value="6"></asp:ListItem>
+<asp:ListItem Text="Above average for age" Value="5"></asp:ListItem>
+<asp:ListItem Text="Neutral" Value="4"></asp:ListItem>
+<asp:ListItem Text="Below average for age" Value="3"></asp:ListItem>
+<asp:ListItem Text="Not attractive for age" Value="2"></asp:ListItem>
+<asp:ListItem Text="Not attractive at all" Value="1"></asp:ListItem> 
+</asp:RadioButtonList>  <br /> 
+
+ <asp:RequiredFieldValidator runat="server" ControlToValidate="RadioButtonList599"
  CssClass="text-danger" ErrorMessage="Please select one option." />
                                                                                               
 <br /> <br />
