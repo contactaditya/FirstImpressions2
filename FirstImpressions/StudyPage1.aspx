@@ -1660,7 +1660,7 @@ How <b>attractive</b> is the adult in <u>Picture2</u> above? <br /> <br />
  <asp:RequiredFieldValidator runat="server" ControlToValidate="RadioButtonList28"
  CssClass="text-danger" ErrorMessage="Please select one option." />
 
-<br /> <br /> How <b>attractive</b> are on average the people in <u>Picture1</u> above? <br /> <br />
+<br /> <br /> How <b>attractive</b> are on average the people in <u>Picture2</u> above? <br /> <br />
                                                                                                                                                               
 <asp:RadioButtonList ID="RadioButtonList29" runat="server" RepeatDirection="Horizontal" RepeatLayout="Table">
 <asp:ListItem Text="Extremely attractive" Value="7"></asp:ListItem>
@@ -4399,7 +4399,7 @@ Woman: <br /> <br />
                                                                                               
 <br /> <br />
 
-How <b>attractive</b> are the man and woman in <u>Picture2</u> above? <br /> <br />
+How <b>attractive</b> are the man and woman in <u>Picture3</u> above? <br /> <br />
  
 Man: <br /> <br /> 
                                                                                                                                                              
@@ -4723,7 +4723,7 @@ How <b>attractive</b> is the person in <u>Picture2</u> above? <br /> <br />
                                                                                               
 <br /> <br />
 
-How <b>attractive</b> are the man and woman in <u>Picture1</u> above? <br /> <br />
+How <b>attractive</b> are the man and woman in <u>Picture3</u> above? <br /> <br />
  
 Man: <br /> <br /> 
                                                                                                                                                              
@@ -5834,7 +5834,7 @@ How <b>attractive</b> are on average the people in <u>Picture3</u> above? <br />
 
 <br /> <br />
 
-How <b>attractive</b> are the man and woman in <u>Picture3</u> above? <br /> <br />
+How <b>attractive</b> are the man and woman in <u>Picture4</u> above? <br /> <br />
  
 Man: <br /> <br /> 
                                                                                                                                                              
@@ -8254,7 +8254,7 @@ Woman: <br /> <br />
                                                                                               
 <br /> <br />
 
-How <b>attractive</b> are the man and woman in <u>Picture3</u> above? <br /> <br />
+How <b>attractive</b> are the man and woman in <u>Picture4</u> above? <br /> <br />
  
 Man: <br /> <br /> 
                                                                                                                                                              
@@ -9326,7 +9326,7 @@ Woman: <br /> <br />
                                                                                               
 <br /> <br />
 
-How <b>attractive</b> are the man and woman in <u>Picture3</u> above? <br /> <br />
+How <b>attractive</b> are the man and woman in <u>Picture4</u> above? <br /> <br />
  
 Man: <br /> <br /> 
                                                                                                                                                              
@@ -11069,7 +11069,7 @@ Woman: <br /> <br />
                                                                                               
 <br /> <br />
 
-How <b>attractive</b> are the man and woman in <u>Picture3</u> above? <br /> <br />
+How <b>attractive</b> are the man and woman in <u>Picture4</u> above? <br /> <br />
  
 Man: <br /> <br /> 
                                                                                                                                                              
